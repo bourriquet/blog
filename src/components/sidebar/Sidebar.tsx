@@ -1,6 +1,5 @@
 import * as React from "react"
 
-import "../../index.css"
 import image from "../../images/sidebar_image.jpeg"
 import Socials from "./Socials"
 

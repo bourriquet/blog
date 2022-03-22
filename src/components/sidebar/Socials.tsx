@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 import { faGoodreads, faInstagram, faLinkedin, faStrava, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
-import "../../index.css"
-
 const socialsData = [{
   icon: faTwitter,
   link: "https://twitter.com/mllerisette",
