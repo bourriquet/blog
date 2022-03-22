@@ -72,18 +72,13 @@ body {
 }
 
 .sidebar-socials {
-  font-size: 1.25em;
+  font-size: 1.3em;
   justify-content: center;
   display: flex;
 }
 
 .sidebar-social {
   padding: 3%;
-}
-
-.sidebar-subtitle {
-  font-size: 1.25em;
-  margin-top: 2%;
 }
 
 .content {

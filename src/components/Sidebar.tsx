@@ -49,9 +49,6 @@ const Sidebar = () => {
           })
         }
         </div>
-        <div class="sidebar-subtitle">
-          Writing about all sorts
-        </div>
       </div>
       <div class="sidebar-bottom">
         Links
