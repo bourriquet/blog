@@ -1,7 +1,7 @@
 import * as React from "react"
 import "../index.css"
 
-import Sidebar from "../components/Sidebar"
+import Sidebar from "../components/sidebar/Sidebar"
 
 
 const App = () => {

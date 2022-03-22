@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
 import { faGoodreads, faInstagram, faLinkedin, faStrava, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
-import "../index.css"
-import image from "../images/sidebar_image.jpeg"
+import "../../index.css"
+import image from "../../images/sidebar_image.jpeg"
 
 const socialsData = [{
   icon: faTwitter,
