@@ -1,14 +1,15 @@
 import * as React from "react"
+import { Link } from 'react-router-dom';
 
 const navData = [{
   name: "Me",
-  route: "x",
+  route: "me",
 }, {
   name: "Now",
-  route: "x",
+  route: "now",
 }, {
   name: "Blog",
-  route: "x",
+  route: "blog",
 }]
 
 const Navigation = () => {
@@ -18,9 +19,9 @@ const Navigation = () => {
         navData.map(function(nav){
           return (
             <div class="sidebar-link">
-              <a href={nav.route}>
+              <Link to={nav.route}>
                 {nav.name}
-              </a>
+              </Link>
             </div>
           )
         })
