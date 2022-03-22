@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import Sidebar from "../components/Sidebar"
+
 const columns = {
   display: "flex",
   flexDirection: "row",
@@ -21,7 +23,7 @@ const App = () => {
   return (
     <div style={columns}>
      <div style={sidebar}>
-       Column 1
+       <Sidebar />
      </div>
      <div style={content}>
        Column 2
