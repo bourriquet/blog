@@ -2,3 +2,37 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  flex: 20%;
+  background-color: lightskyblue;
+  position: relative;
+}
+
+.sidebar:after {
+  content: '';
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  background-color: lightskyblue;
+  background: linear-gradient(-137deg, lightskyblue 20px, transparent 0) 0 50px, linear-gradient(320deg, lightskyblue 20px, transparent 0) 0 50px;
+  background-position: left;
+  background-repeat: repeat-y;
+  background-size:50px 50px;
+  left: auto;
+  right: -50px;
+  top: 0;
+  transform: scaleX(-1);
+}
+
+.content {
+  flex: 80%;
+}
