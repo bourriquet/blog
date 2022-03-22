@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Source+Sans+Pro&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .columns {
@@ -14,8 +17,14 @@ body {
 
 .sidebar {
   flex: 20%;
-  background-color: lightskyblue;
+  background-color: #8ed9e8;
+  color: white;
   position: relative;
+  display: inline-block
+}
+
+.sidebar a {
+  color: white;
 }
 
 .sidebar:after {
@@ -23,8 +32,8 @@ body {
   width: 50px;
   height: 100%;
   position: absolute;
-  background-color: lightskyblue;
-  background: linear-gradient(-137deg, lightskyblue 20px, transparent 0) 0 50px, linear-gradient(320deg, lightskyblue 20px, transparent 0) 0 50px;
+  background-color: #8ed9e8;
+  background: linear-gradient(-137deg, #8ed9e8 20px, transparent 0) 0 50px, linear-gradient(320deg, #8ed9e8 20px, transparent 0) 0 50px;
   background-position: left;
   background-repeat: repeat-y;
   background-size:50px 50px;
@@ -37,7 +46,13 @@ body {
 .sidebar-container {
   width: 100%;
   height: 100%;
-  padding: 20% 5% 5% 5%;
+  padding: 15% 5% 5% 5%;
+  box-sizing: border-box;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .sidebar-image {
@@ -45,7 +60,31 @@ body {
 }
 
 .sidebar-image img {
+  border: 5px solid white;
   border-radius: 50%;
+}
+
+.sidebar-title {
+  font-size: 3.25em;
+  font-family: 'Dancing Script', cursive;
+  width: 100%;
+  padding-top: 2%;
+}
+
+.sidebar-socials {
+  font-size: 1.25em;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.sidebar-social {
+  padding: 3%;
+}
+
+.sidebar-subtitle {
+  font-size: 1.25em;
+  margin-top: 2%;
 }
 
 .content {
