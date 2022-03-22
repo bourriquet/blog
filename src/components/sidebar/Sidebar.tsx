@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import image from "../../images/sidebar_image.jpeg"
+import Navigation from "./Navigation"
 import Socials from "./Socials"
 
 const Sidebar = () => {
@@ -16,7 +17,7 @@ const Sidebar = () => {
         <Socials />
       </div>
       <div class="sidebar-bottom">
-        Links
+        <Navigation />
       </div>
     </div>
   )

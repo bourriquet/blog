@@ -25,6 +25,7 @@ body {
 
 .sidebar a {
   color: white;
+  text-decoration: none;
 }
 
 .sidebar:after {
@@ -79,6 +80,15 @@ body {
 
 .sidebar-social {
   padding: 3%;
+}
+
+.sidebar-navigation {
+  font-size: 2em;
+  padding-bottom: 15%;
+}
+
+.sidebar-link {
+  padding: 2% 2% 2% 2%;
 }
 
 .content {
