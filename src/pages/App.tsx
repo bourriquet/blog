@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Route, Routes } from 'react-router-dom';
+import { Outlet, Route, Routes } from 'react-router-dom';
 
 import Blog from "../components/Blog"
 import Me from "../components/Me"
@@ -15,11 +15,13 @@ const App = () => {
      </div>
      <div class="content">
        <Routes>
-        <Route path="/" component={Me} exact />
-        <Route path="/blog" component={Blog} />
-        <Route path="/me" component={Me} />
-        <Route path="/now" component={Now} />
+        <Route path="/" element={<Me/>} exact />
+        <Route path="/blog" element={<Blog/>} exact />
+        <Route path="/me" element={<Me/>} exact />
+        <Route path="/now" element={<Now/>} exact />
        </Routes>
+
+       <Outlet />
      </div>
   </div>
   )

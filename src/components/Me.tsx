@@ -2,7 +2,7 @@ import * as React from "react"
 
 const Me = () => {
   return (
-    <div>
+    <div class="content-box">
       Mememeemememememee
     </div>
   )

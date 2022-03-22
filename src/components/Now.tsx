@@ -2,7 +2,7 @@ import * as React from "react"
 
 const Now = () => {
   return (
-    <div>
+    <div class="content-box">
       Now
     </div>
   )
