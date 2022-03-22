@@ -73,7 +73,7 @@ body {
 
 .sidebar-socials {
   font-size: 1.25em;
-  align-items: center;
+  justify-content: center;
   display: flex;
 }
 
