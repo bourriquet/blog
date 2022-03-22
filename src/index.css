@@ -2,3 +2,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  flex: 20%;
+  background-color: lightskyblue;
+}
+
+.content {
+  flex: 80%;
+}
