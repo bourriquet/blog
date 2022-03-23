@@ -15,13 +15,35 @@ const Blog = () => {
     })
       .then(response => response.json())
       .then(responseData => {
-        setBlogPosts(responseData.results)
+        let pages = []
+        responseData.results.map(function(result){
+          console.log(result)
+          let page = {}
+          page.title = result.properties.Title.title[0].plain_text
+          page.date = result.properties.Date.date.start
+          pages.push(page)
+        })
+
+        setBlogPosts(pages)
       })
   }, [])
 
   return (
-    <div class="content-box">
-      x
+    <div>
+      {
+        blogPosts.map(function(post){
+          return (
+            <div class="content-box blog-post">
+              <div class="post-title">
+                {post.title}
+              </div>
+              <div>
+                {post.date}
+              </div>
+            </div>
+          )
+        })
+      }
     </div>
   )
 }

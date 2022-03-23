@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .columns {
@@ -95,6 +95,8 @@ body {
   flex: 80%;
   padding: 3% 3% 3% 60px;
   box-sizing: border-box;
+  height: 100%;
+  overflow: scroll;
 }
 
 .content-box {
@@ -103,4 +105,12 @@ body {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 5px 0px;
   padding: 3%;
   box-sizing: border-box;
+}
+
+.blog-post {
+  margin-bottom: 2%;
+}
+
+.post-title {
+  font-size: 1.7em;
 }
