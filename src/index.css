@@ -113,6 +113,7 @@ body {
 
 .blog-post {
   max-width: 80%;
+  height: 225px;
   margin: auto;
   border: 1px solid #CCCCCC;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 5px 0px;
