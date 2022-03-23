@@ -12,7 +12,14 @@ const Blog = () => {
         "Notion-Version": "2022-02-22",
         "Authorization": "Bearer secret_bMVein24eDYAwBss2Np3XoZEA0XlOc1rFZM8dqiKn7F",
       },
-    })
+      body: JSON.stringify({
+        "sorts": [{
+          "property": "Title",
+          "direction": "descending"
+        }],
+        "page_size": 2,
+      })
+  })
       .then(response => response.json())
       .then(responseData => {
         let pages = []
@@ -21,6 +28,8 @@ const Blog = () => {
           let page = {}
           page.title = result.properties.Title.title[0].plain_text
           page.date = result.properties.Date.date.start
+          page.location = result.properties.Location.rich_text[0].plain_text
+          page.caption = result.properties.Caption.rich_text[0].plain_text
           pages.push(page)
         })
 
@@ -38,7 +47,13 @@ const Blog = () => {
                 {post.title}
               </div>
               <div>
+                {post.caption}
+              </div>
+              <div>
                 {post.date}
+              </div>
+              <div>
+                {post.location}
               </div>
             </div>
           )
