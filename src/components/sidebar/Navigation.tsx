@@ -19,9 +19,7 @@ const Navigation = () => {
         navData.map(function(nav){
           return (
             <div class="sidebar-link">
-              <Link to={nav.route}>
-                {nav.name}
-              </Link>
+              {nav.name}
             </div>
           )
         })
