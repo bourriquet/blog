@@ -1,15 +1,15 @@
 import * as React from "react"
-import { Link } from 'react-router-dom';
+import { Link } from "gatsby"
 
 const navData = [{
   name: "Me",
-  route: "me",
+  route: "/me",
 }, {
   name: "Now",
-  route: "now",
+  route: "/now",
 }, {
   name: "Blog",
-  route: "blog",
+  route: "/blog",
 }]
 
 const Navigation = () => {
@@ -19,7 +19,9 @@ const Navigation = () => {
         navData.map(function(nav){
           return (
             <div class="sidebar-link">
-              {nav.name}
+              <Link to={nav.route}>
+                {nav.name}
+              </Link>
             </div>
           )
         })
