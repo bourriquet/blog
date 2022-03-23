@@ -39,7 +39,7 @@ const Blog = () => {
   }, [])
 
   return (
-    <div>
+    <div class="blog-posts">
       {
         blogPosts.map(function(post){
           return (
