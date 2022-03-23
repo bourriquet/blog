@@ -112,6 +112,7 @@ body {
 }
 
 .blog-post {
+  min-width: 800px;
   max-width: 80%;
   height: 225px;
   margin: auto;
