@@ -11,14 +11,7 @@ const Blog = () => {
       headers: {
         "Notion-Version": "2022-02-22",
         "Authorization": "Bearer secret_bMVein24eDYAwBss2Np3XoZEA0XlOc1rFZM8dqiKn7F",
-      },
-      body: JSON.stringify({
-        "sorts": [{
-          "property": "Title",
-          "direction": "descending"
-        }],
-        "page_size": 2,
-      })
+      }
   })
       .then(response => response.json())
       .then(responseData => {

@@ -93,7 +93,6 @@ body {
 
 .content {
   flex: 80%;
-  padding: 3% 3% 3% 60px;
   box-sizing: border-box;
   height: 100%;
   overflow: scroll;
@@ -103,22 +102,25 @@ body {
   width: 100%;
   border: 1px solid #CCCCCC;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 5px 0px;
-  padding: 3%;
-  box-sizing: border-box;
 }
 
 .blog-posts {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .blog-post {
   min-width: 800px;
   max-width: 80%;
   height: 225px;
-  margin: auto;
   border: 1px solid #CCCCCC;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 5px 0px;
   margin-bottom: 2%;
+  margin-right: 60px;
 
   display: flex;
   flex-direction: row;
