@@ -1,6 +1,8 @@
 import * as React from "react"
 import {getAllBlogPosts} from "../api/client"
 
+import BlogPost from "./blog/BlogPost"
+
 
 const Blog = () => {
   const [blogPosts, setBlogPosts] = React.useState([])
@@ -27,31 +29,14 @@ const Blog = () => {
       {
         blogPosts.map(function(post, index){
           return (
-            <div className="content-box blog-post" key={index}>
-              <div className="blog-post-image">
-                <div>
-                  <img src={post.photo} width="300px" height="225px" />
-                </div>
-              </div>
-              <div className="blog-post-details">
-                <div>
-                  <div className="blog-post-title">
-                    {post.title}
-                  </div>
-                  <div className="blog-post-caption">
-                    {post.caption}
-                  </div>
-                </div>
-                <div>
-                  <div className="blog-post-date">
-                    {post.date}
-                  </div>
-                  <div className="blog-post-location">
-                    {post.location}
-                  </div>
-                </div>
-              </div>
-            </div>
+            <BlogPost
+              index={index}
+              caption={post.caption}
+              date={post.date}
+              location={post.location}
+              photo={post.photo}
+              title={post.title}
+            />
           )
         })
       }
