@@ -1,47 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dancing+Script:wght@600&family=Playfair+Display&display=swap');
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   font-family: 'Cormorant Garamond', serif;
 }
 
-.columns {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100vw;
-  height: 100vh;
-}
-
 .sidebar {
-  flex: 20%;
+  height: 100%;
+  width: 300px;
+  position: fixed;
   background-color: #8ed9e8;
   color: white;
-  position: relative;
-  display: inline-block
 }
 
 .sidebar a {
   color: white;
   text-decoration: none;
-}
-
-.sidebar:after {
-  content: '';
-  width: 50px;
-  height: 100%;
-  position: absolute;
-  background-color: #8ed9e8;
-  background: linear-gradient(-137deg, #8ed9e8 20px, transparent 0) 0 50px, linear-gradient(320deg, #8ed9e8 20px, transparent 0) 0 50px;
-  background-position: left;
-  background-repeat: repeat-y;
-  background-size:50px 50px;
-  left: auto;
-  right: -50px;
-  top: 0;
-  transform: scaleX(-1);
 }
 
 .sidebar-container {
@@ -92,10 +72,10 @@ body {
 }
 
 .content {
-  flex: 80%;
-  box-sizing: border-box;
+  position: relative;
+  margin-left: 300px;
   height: 100%;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 .content-box {
@@ -105,22 +85,21 @@ body {
 }
 
 .blog-posts {
+  min-width: 800px;
+  margin: 60px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: 60px;
-  margin-right: 60px;
 }
 
 .blog-post {
-  min-width: 800px;
-  max-width: 80%;
   height: 225px;
+  width: 800px;
   border: 1px solid #CCCCCC;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 5px 0px;
-  margin-bottom: 2%;
-  margin-right: 60px;
+  margin-bottom: 20px;
 
   display: flex;
   flex-direction: row;
