@@ -1,19 +1,11 @@
 import * as React from "react"
-import "../index.css"
 
-import Sidebar from "../components/Sidebar"
+import MePage from "./me"
 
 
 const App = () => {
   return (
-    <div class="columns">
-     <div class="sidebar">
-       <Sidebar />
-     </div>
-     <div class="content">
-       Column 2
-    </div>
-  </div>
+    <MePage />
   )
 }
 
