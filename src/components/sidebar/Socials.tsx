@@ -25,11 +25,11 @@ const socialsData = [{
 
 const Socials = () => {
   return (
-    <div class="sidebar-socials">
+    <div className="sidebar-socials">
       {
-        socialsData.map(function(social){
+        socialsData.map(function(social, index){
           return (
-            <div class="sidebar-social">
+            <div className="sidebar-social" key={index}>
               <a href={social.link} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={social.icon} />
               </a>

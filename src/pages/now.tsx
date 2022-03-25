@@ -6,11 +6,11 @@ import Sidebar from "../components/sidebar/Sidebar"
 
 const NowPage = () => {
   return (
-    <div class="columns">
-     <div class="sidebar">
+    <div className="columns">
+     <div className="sidebar">
        <Sidebar />
      </div>
-     <div class="content-container">
+     <div className="content-container">
        <Now />
      </div>
   </div>

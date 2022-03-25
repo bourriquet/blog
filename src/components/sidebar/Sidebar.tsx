@@ -6,17 +6,17 @@ import Socials from "./Socials"
 
 const Sidebar = () => {
   return (
-    <div class="sidebar-container">
-      <div class="sidebar-top">
-        <div class="sidebar-image">
+    <div className="sidebar-container">
+      <div className="sidebar-top">
+        <div className="sidebar-image">
           <img width="90%" src={image} />
         </div>
-        <div class="sidebar-title">
+        <div className="sidebar-title">
           Lauren
         </div>
         <Socials />
       </div>
-      <div class="sidebar-bottom">
+      <div className="sidebar-bottom">
         <Navigation />
       </div>
     </div>

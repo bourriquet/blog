@@ -23,30 +23,30 @@ const Blog = () => {
   }, [])
 
   return (
-    <div class="content">
+    <div className="content">
       {
-        blogPosts.map(function(post){
+        blogPosts.map(function(post, index){
           return (
-            <div class="content-box blog-post">
-              <div class="blog-post-image">
+            <div className="content-box blog-post" key={index}>
+              <div className="blog-post-image">
                 <div>
                   <img src={post.photo} width="300px" height="225px" />
                 </div>
               </div>
-              <div class="blog-post-details">
+              <div className="blog-post-details">
                 <div>
-                  <div class="blog-post-title">
+                  <div className="blog-post-title">
                     {post.title}
                   </div>
-                  <div class="blog-post-caption">
+                  <div className="blog-post-caption">
                     {post.caption}
                   </div>
                 </div>
                 <div>
-                  <div class="blog-post-date">
+                  <div className="blog-post-date">
                     {post.date}
                   </div>
-                  <div class="blog-post-location">
+                  <div className="blog-post-location">
                     {post.location}
                   </div>
                 </div>

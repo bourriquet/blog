@@ -14,11 +14,11 @@ const navData = [{
 
 const Navigation = () => {
   return (
-    <div class="sidebar-navigation">
+    <div className="sidebar-navigation">
       {
-        navData.map(function(nav){
+        navData.map(function(nav, index){
           return (
-            <div class="sidebar-link">
+            <div className="sidebar-link" key={index}>
               <Link to={nav.route}>
                 {nav.name}
               </Link>
