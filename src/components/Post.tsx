@@ -10,7 +10,8 @@ const Post = (props) => {
       console.log(responseData)
 
       setPostPage({
-        title: responseData.properties.Title.title[0].plain_text
+        title: responseData.properties.Title.title[0].plain_text,
+        location: responseData.properties.Location.rich_text[0].plain_text
       })
     })
 
@@ -27,6 +28,7 @@ const Post = (props) => {
         <div className="post-title">
           {postPage.title}
         </div>
+        {postPage.location}
       </div>
     </div>
   )
