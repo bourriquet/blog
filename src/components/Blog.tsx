@@ -12,6 +12,7 @@ const Blog = () => {
       let pages = []
       responseData.results.map(function(result){
         let page = {}
+        page.id = result.id
         page.title = result.properties.Title.title[0].plain_text
         page.date = result.properties.Date.date.start
         page.location = result.properties.Location.rich_text[0].plain_text
@@ -30,9 +31,11 @@ const Blog = () => {
         blogPosts.map(function(post, index){
           return (
             <BlogPost
+              key={index}
               index={index}
               caption={post.caption}
               date={post.date}
+              post_id={post.id}
               location={post.location}
               photo={post.photo}
               title={post.title}
