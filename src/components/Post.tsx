@@ -24,7 +24,9 @@ const Post = (props) => {
   return (
     <div className="content">
       <div className="content-box box">
-        {postPage.title}
+        <div className="post-title">
+          {postPage.title}
+        </div>
       </div>
     </div>
   )
