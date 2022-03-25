@@ -32,11 +32,11 @@ const Blog = () => {
   }, [])
 
   return (
-    <div class="blog-posts">
+    <div class="content">
       {
         blogPosts.map(function(post){
           return (
-            <div class="blog-post">
+            <div class="content-box blog-post">
               <div class="blog-post-image">
                 <div>
                   <img src={post.photo} width="300px" height="225px" />

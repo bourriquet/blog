@@ -10,7 +10,7 @@ const BlogPage = () => {
      <div class="sidebar">
        <Sidebar />
      </div>
-     <div class="content">
+     <div class="content-container">
        <Blog />
      </div>
   </div>

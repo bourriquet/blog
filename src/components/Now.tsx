@@ -2,8 +2,10 @@ import * as React from "react"
 
 const Now = () => {
   return (
-    <div class="content-box">
-      Now
+    <div class="content">
+      <div class="content-box box">
+        Now
+      </div>
     </div>
   )
 }

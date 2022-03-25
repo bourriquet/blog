@@ -71,20 +71,14 @@ body {
   padding: 2% 2% 2% 2%;
 }
 
-.content {
+.content-container {
   position: relative;
   margin-left: 300px;
   height: 100%;
   overflow-x: scroll;
 }
 
-.content-box {
-  width: 100%;
-  border: 1px solid #CCCCCC;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 5px 0px;
-}
-
-.blog-posts {
+.content {
   min-width: 800px;
   margin: 60px;
 
@@ -94,11 +88,19 @@ body {
   align-items: center;
 }
 
-.blog-post {
-  height: 225px;
+.content-box {
   width: 800px;
   border: 1px solid #CCCCCC;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 5px 0px;
+}
+
+.box {
+  padding: 2%;
+  height: 225px;
+}
+
+.blog-post {
+  height: 225px;
   margin-bottom: 20px;
 
   display: flex;

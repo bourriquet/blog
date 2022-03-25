@@ -10,7 +10,7 @@ const NowPage = () => {
      <div class="sidebar">
        <Sidebar />
      </div>
-     <div class="content">
+     <div class="content-container">
        <Now />
      </div>
   </div>

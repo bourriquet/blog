@@ -10,7 +10,7 @@ const MePage = () => {
      <div class="sidebar">
        <Sidebar />
      </div>
-     <div class="content">
+     <div class="content-container">
        <Me />
      </div>
     </div>
