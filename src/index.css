@@ -83,7 +83,7 @@ body a {
 }
 
 .content {
-  min-width: 800px;
+  min-width: 1000px;
   margin: 60px;
 
   display: flex;
@@ -93,7 +93,7 @@ body a {
 }
 
 .content-box {
-  width: 800px;
+  width: 1000px;
   border: 1px solid #CCCCCC;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 5px 0px;
 }
