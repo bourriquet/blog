@@ -12,7 +12,10 @@ const config: GatsbyConfig = {
       "path": "./src/images/"
     },
     __key: "images"
-  }]
+  }],
+  flags: {
+    DEV_SSR: false,
+  }
 };
 
 export default config;
