@@ -151,7 +151,7 @@ body a {
 
 /* SMALLER SCREEN */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 768px) {
   .sidebar {
     height: 50px;
     width: 100%;
@@ -181,7 +181,7 @@ body a {
     order: 0;
   }
   .sidebar-navigation {
-    color: #000;
+    font-size: 1.5em;
     padding-bottom: 0%;
 
     display: flex;
@@ -198,10 +198,23 @@ body a {
     position: fixed;
   }
   .content {
-    margin-top: 0px;
-    min-width: 700px;
+    margin: 0px 10px 0px 10px;
+    min-width: 450px;
   }
   .content-box {
-    width: 700px;
+    width: 450px;
+  }
+  .blog-post {
+    height: 150px;
+  }
+  .blog-post-title {
+    font-size: 1.5em;
+  }
+  .blog-post-caption {
+    font-size: 1.2em;
+    margin-bottom: 1%;
+  }
+  .blog-post-image {
+    display: none;
   }
 }
