@@ -1,9 +1,8 @@
 import * as React from "react"
+import "../index.css"
 
 import Me from "../components/Me"
 import Sidebar from "../components/sidebar/Sidebar"
-
-import "../index.css"
 
 
 const MePage = () => {
