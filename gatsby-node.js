@@ -1,7 +1,7 @@
 const path = require("path");
 
 exports.onCreatePage = async ({page, actions}) =>{
-    const {createPage, createRedirect} = actions
+    const {createPage} = actions
 
     if(page.path.match(/^\/post/)){
         createPage({
@@ -10,9 +10,4 @@ exports.onCreatePage = async ({page, actions}) =>{
             component: path.resolve("src/pages/post.tsx")
         })
     }
-
-    createRedirect({
-      fromPath: `/*`,
-      toPath: `/`,
-    });
 }
