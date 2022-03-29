@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dancing+Script:wght@600&family=Playfair+Display&display=swap');
 
-html {
+html, #___gatsby, #gatsby-focus-wrapper {
   height: 100%;
 }
 
@@ -14,6 +14,10 @@ body {
 body a {
   color: black;
   text-decoration: none;
+}
+
+.columns {
+  height: 100%;
 }
 
 .sidebar {
@@ -83,7 +87,7 @@ body a {
 }
 
 .content {
-  min-width: 800px;
+  min-width: 1000px;
   margin: 60px;
 
   display: flex;
@@ -93,7 +97,7 @@ body a {
 }
 
 .content-box {
-  width: 800px;
+  width: 1000px;
   border: 1px solid #CCCCCC;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 5px 0px;
 }
@@ -142,4 +146,75 @@ body a {
 .post-title {
   font-size: 2.2em;
   margin-bottom: 1%;
+}
+
+
+/* SMALLER SCREEN */
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  .sidebar-container {
+    padding: 0% 3% 0% 3%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .sidebar-image {
+    display: none;
+  }
+  .sidebar-title {
+    display: none;
+  }
+  .sidebar-top {
+    width: 50%;
+    order: 1;
+    align-items: right;
+  }
+  .sidebar-bottom {
+    width: 50%;
+    order: 0;
+  }
+  .sidebar-navigation {
+    font-size: 1.5em;
+    padding-bottom: 0%;
+
+    display: flex;
+    flex-direction: row;
+  }
+  .sidebar-socials {
+    justify-content: flex-end;
+    display: flex;
+  }
+  .content-container {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 60px;
+    position: fixed;
+  }
+  .content {
+    margin: 0px 10px 0px 10px;
+    min-width: 450px;
+  }
+  .content-box {
+    width: 450px;
+  }
+  .blog-post {
+    height: 150px;
+  }
+  .blog-post-title {
+    font-size: 1.5em;
+  }
+  .blog-post-caption {
+    font-size: 1.2em;
+    margin-bottom: 1%;
+  }
+  .blog-post-image {
+    display: none;
+  }
 }
