@@ -24,12 +24,12 @@ body a {
   height: 100%;
   width: 300px;
   position: fixed;
-  background-color: #8ed9e8;
-  color: white;
+  background-color: #6286a0;
+  color: #050709;
 }
 
 .sidebar a {
-  color: white;
+  color: #050709;
 }
 
 .sidebar-container {
@@ -49,7 +49,7 @@ body a {
 }
 
 .sidebar-image img {
-  border: 5px solid white;
+  border: 3px solid white;
   border-radius: 50%;
 }
 
@@ -143,6 +143,10 @@ body a {
   margin-bottom: 2%;
 }
 
+.blog-post-location {
+  font-size: 1.2em;
+}
+
 .post-title {
   font-size: 2.2em;
   margin-bottom: 1%;
@@ -199,10 +203,10 @@ body a {
   }
   .content {
     margin: 0px 10px 0px 10px;
-    min-width: 450px;
+    min-width: 400px;
   }
   .content-box {
-    width: 450px;
+    width: 400px;
   }
   .blog-post {
     height: 150px;
@@ -212,7 +216,12 @@ body a {
   }
   .blog-post-caption {
     font-size: 1.2em;
-    margin-bottom: 1%;
+  }
+  .blog-post-date {
+    font-size: 1em;
+  }
+  .blog-post-location {
+    font-size: 1em;
   }
   .blog-post-image {
     display: none;
