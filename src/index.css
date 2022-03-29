@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dancing+Script:wght@600&family=Playfair+Display&display=swap');
 
-html {
+html, #___gatsby, #gatsby-focus-wrapper {
   height: 100%;
 }
 
@@ -14,6 +14,10 @@ body {
 body a {
   color: black;
   text-decoration: none;
+}
+
+.columns {
+  height: 100%;
 }
 
 .sidebar {
