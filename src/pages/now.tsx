@@ -1,4 +1,5 @@
 import * as React from "react"
+import "../index.css"
 
 import Now from "../components/Now"
 import Sidebar from "../components/sidebar/Sidebar"
