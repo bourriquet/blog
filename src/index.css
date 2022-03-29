@@ -24,12 +24,12 @@ body a {
   height: 100%;
   width: 300px;
   position: fixed;
-  background-color: #8ed9e8;
-  color: white;
+  background-color: #6286a0;
+  color: #050709;
 }
 
 .sidebar a {
-  color: white;
+  color: #050709;
 }
 
 .sidebar-container {
@@ -49,7 +49,7 @@ body a {
 }
 
 .sidebar-image img {
-  border: 5px solid white;
+  border: 3px solid white;
   border-radius: 50%;
 }
 
