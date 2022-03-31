@@ -104,7 +104,7 @@ body a {
 
 .box {
   padding: 2%;
-  height: 225px;
+  box-sizing: border-box;
 }
 
 .blog-post {
