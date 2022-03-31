@@ -26,9 +26,6 @@ const BlogPost = (props) => {
               <div className="blog-post-date">
                 {props.date}
               </div>
-              <div className="blog-post-location">
-                {props.location}
-              </div>
             </div>
           </div>
         </div>
