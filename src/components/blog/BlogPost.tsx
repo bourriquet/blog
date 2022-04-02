@@ -5,7 +5,7 @@ const BlogPost = (props) => {
   const url = "/post/" + props.post_id
 
   return (
-    <div key={props.index}>
+    <div className="blog-post-list" key={props.index}>
       <Link to={url}>
         <div className="content-box blog-post">
           <div className="blog-post-image">
