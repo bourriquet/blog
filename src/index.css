@@ -217,6 +217,9 @@ h3 {
   body {
     font-weight: 500;
   }
+  h3 {
+    margin-top: 8%;
+  }
   .sidebar {
     height: 50px;
     width: 100%;
@@ -273,14 +276,22 @@ h3 {
   .content-box {
     width: 90vw;
   }
+  .borderless-box {
+    width: 90vw;
+  }
+  .box {
+    padding: 5%;
+  }
   .blog-post {
-    height: 150px;
+    height: 120px;
+    padding: 2%;
+    box-sizing: border-box;
   }
   .blog-post-title {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   .blog-post-caption {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   .blog-post-date {
     font-size: 1em;
@@ -295,6 +306,9 @@ h3 {
     font-size: 1.1em;
   }
   .now-lines div {
-    margin-top: 2.5%;
+    margin-top: 5%;
+  }
+  .page-title {
+    font-size: 2em;
   }
 }
