@@ -8,7 +8,9 @@ const PostPage = (props) => {
   const [pageId, setPageId] = React.useState("None")
 
   React.useEffect(() => {
-    setPageId(props.id)
+    if (props.id) {
+      setPageId(props.id)
+    }
   })
 
   return (

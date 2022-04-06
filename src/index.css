@@ -94,6 +94,14 @@ td {
   padding: 2% 2% 2% 2%;
 }
 
+.me-image {
+  display: none;
+}
+
+.me-image img {
+  border-radius: 50%;
+}
+
 .content-container {
   position: relative;
   margin-left: 300px;
@@ -185,6 +193,13 @@ td {
 }
 
 
+/* Me page */
+
+.me {
+  text-align: center;
+}
+
+
 /* Now page */
 
 .now-lines div {
@@ -203,6 +218,9 @@ td {
 /* SMALLER SCREEN */
 
 @media only screen and (max-width: 768px) {
+  body {
+    font-weight: 600;
+  }
   .sidebar {
     height: 50px;
     width: 100%;
@@ -241,6 +259,9 @@ td {
   .sidebar-socials {
     justify-content: flex-end;
     display: flex;
+  }
+  .me-image {
+    display: initial;
   }
   .content-container {
     width: 100%;

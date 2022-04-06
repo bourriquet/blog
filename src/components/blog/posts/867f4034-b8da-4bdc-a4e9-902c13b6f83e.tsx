@@ -33,9 +33,10 @@ const PostContent = (props) => {
           I got back from my Land’s End to John o’Groats cycle in August 2021,
           but things kept getting in the way; mostly my inability to decide
           what I wanted this blog to look like. The <em>Writer</em> badge has
-          been the nudge I needed to get the blog set up, even if it isn't
-          exactly how I'd like it to look, and start revisiting my cycle trip,
-          as well as transfer some posts from my old study abroad blog.
+          been the nudge I needed to get the blog set up - even if it isn't
+          exactly how I'd like it to look just yet - and start revisiting my
+          cycle trip, as well as transfer some posts from my old study abroad
+          blog.
         </p>
         <p>
           Rebel Badges has a
@@ -50,13 +51,13 @@ const PostContent = (props) => {
           of my Land's End to John o'Groats cycle last year counting towards the
           challenge aspect of the <em>Explorer</em> badge. I just don't think
           I'll be able to top it, and have no intention of doing anything that
-          physically demanding for some time.
+          physically demanding and life-consuming for some time.
         </p>
         <p>
           This is all about trying new things and challenging myself, so I'm
           going to try to complete as much as I can!
         </p>
-        <h3>Definitely</h3>
+        <h3><u>Definitely</u></h3>
         <table>
           <tbody>
             <tr>
@@ -95,15 +96,15 @@ const PostContent = (props) => {
               <td>🌎 World Traveller</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
               <td>✏️ Writer</td>
+              <td></td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
           </tbody>
         </table>
-        <h3>Yes, but not yet</h3>
+        <h3><u>Yes, but not yet</u></h3>
         <table>
           <tbody>
             <tr>
@@ -128,15 +129,15 @@ const PostContent = (props) => {
               <td>🏅 My Talents</td>
             </tr>
             <tr>
-              <td></td>
-              <td></td>
               <td>🧭 Survivor</td>
+              <td></td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
           </tbody>
         </table>
-        <h3>Maybe</h3>
+        <h3><u>Maybe</u></h3>
         <table>
           <tbody>
             <tr>
@@ -144,20 +145,21 @@ const PostContent = (props) => {
               <td>🐾 Animal Lover *</td>
               <td>🩰 Dancer</td>
               <td>🪡 Designer</td>
-              <td>🖼 Interior Designer</td>
+              <td>💐 Florist</td>
             </tr>
             <tr>
+              <td>🖼 Interior Designer</td>
               <td></td>
               <td></td>
-              <td>💐 Florist</td>
               <td></td>
               <td></td>
             </tr>
           </tbody>
         </table>
-        <p style={{fontSize: "0.8em"}}>* This one is really difficult to do without a pet, or friends/family
-        nearby to pet-sit for.</p>
-        <h3>Never say never, but probably not</h3>
+        <p style={{fontSize: "0.8em"}}>* I do love animals, but this one is
+        difficult to complete without a pet, or friends/family nearby to pet-sit
+        for.</p>
+        <h3><u>Never say never, but probably not</u></h3>
         <table>
           <tbody>
             <tr>
@@ -168,13 +170,13 @@ const PostContent = (props) => {
             </tr>
           </tbody>
         </table>
-        <h3>Highly unlikely</h3>
+        <h3><u>Highly unlikely</u></h3>
         <table>
           <tbody>
             <tr>
-              <td></td>
-              <td></td>
               <td>🏊🏼‍♀️ Wild Swimmer</td>
+              <td></td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
