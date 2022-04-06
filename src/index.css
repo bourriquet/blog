@@ -218,6 +218,9 @@ td {
 /* SMALLER SCREEN */
 
 @media only screen and (max-width: 768px) {
+  body {
+    font-weight: 600;
+  }
   .sidebar {
     height: 50px;
     width: 100%;
