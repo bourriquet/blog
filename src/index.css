@@ -214,12 +214,20 @@ td {
   margin-bottom: 1%;
 }
 
+/* Other */
+
+.span-badge {
+  margin-right: 5%;
+  margin-bottom: 0.5%;
+  display: inline-block;
+}
+
 
 /* SMALLER SCREEN */
 
 @media only screen and (max-width: 768px) {
   body {
-    font-weight: 600;
+    font-weight: 500;
   }
   .sidebar {
     height: 50px;
