@@ -3,7 +3,7 @@ import {getBlogPost} from "../../../data/blogPosts"
 
 const postData = getBlogPost("867f4034-b8da-4bdc-a4e9-902c13b6f83e")
 
-const Post = (props) => {
+const PostContent = (props) => {
   return (
     <>
       <div className="post-title">
@@ -58,121 +58,131 @@ const Post = (props) => {
         </p>
         <h3>Definitely</h3>
         <table>
-          <tr>
-            <td>🏠 Adulting</td>
-            <td>🧗🏼‍♀️ Adventurer</td>
-            <td>🧴 Apothecary</td>
-            <td>🍰 Baker</td>
-            <td>🏕 Camper</td>
-          </tr>
-          <tr>
-            <td>🔪 Chef</td>
-            <td>🔐 Codebreaker</td>
-            <td>🧶 Craft</td>
-            <td>📝 Critic</td>
-            <td>🎒 Explorer</td>
-          </tr>
-          <tr>
-            <td>🏋🏼‍♀️ Fitness</td>
-            <td>🪴 Indoor Gardener</td>
-            <td>📈 Investor</td>
-            <td>💬 Linguist</td>
-            <td>👛 Money Saver</td>
-          </tr>
-          <tr>
-            <td>🎵 Musician</td>
-            <td>🌳 My Roots</td>
-            <td>🔥 Outdoor Cooking</td>
-            <td>📷 Photographer</td>
-            <td>📚 Reader</td>
-          </tr>
-          <tr>
-            <td>👟 Runner</td>
-            <td>🛏 Self Care</td>
-            <td>🧏🏼‍♀️ Sign Language</td>
-            <td>🌌 Stargazer</td>
-            <td>🌎 World Traveller</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td>✏️ Writer</td>
-            <td></td>
-            <td></td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>🏠 Adulting</td>
+              <td>🧗🏼‍♀️ Adventurer</td>
+              <td>🧴 Apothecary</td>
+              <td>🍰 Baker</td>
+              <td>🏕 Camper</td>
+            </tr>
+            <tr>
+              <td>🔪 Chef</td>
+              <td>🔐 Codebreaker</td>
+              <td>🧶 Craft</td>
+              <td>📝 Critic</td>
+              <td>🎒 Explorer</td>
+            </tr>
+            <tr>
+              <td>🏋🏼‍♀️ Fitness</td>
+              <td>🪴 Indoor Gardener</td>
+              <td>📈 Investor</td>
+              <td>💬 Linguist</td>
+              <td>👛 Money Saver</td>
+            </tr>
+            <tr>
+              <td>🎵 Musician</td>
+              <td>🌳 My Roots</td>
+              <td>🔥 Outdoor Cooking</td>
+              <td>📷 Photographer</td>
+              <td>📚 Reader</td>
+            </tr>
+            <tr>
+              <td>👟 Runner</td>
+              <td>🛏 Self Care</td>
+              <td>🧏🏼‍♀️ Sign Language</td>
+              <td>🌌 Stargazer</td>
+              <td>🌎 World Traveller</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>✏️ Writer</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
         </table>
         <h3>Yes, but not yet</h3>
         <table>
-          <tr>
-            <td>🎨 Artist</td>
-            <td>🤲🏼 Community Service</td>
-            <td>🛍 Conscious Consumer</td>
-            <td>📒 Diarist</td>
-            <td>🔨 DIY</td>
-          </tr>
-          <tr>
-            <td>🌱 Environmentalist</td>
-            <td>🎉 Event Planner</td>
-            <td>💐 Florist</td>
-            <td>💸 Fundraiser</td>
-            <td>🌿 Gardener</td>
-          </tr>
-          <tr>
-            <td>🧠 Good Habits</td>
-            <td>💭 Mindfulness</td>
-            <td>🗣 My Brand</td>
-            <td>🎯 My Goals</td>
-            <td>🏅 My Talents</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td>🧭 Survivor</td>
-            <td></td>
-            <td></td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>🎨 Artist</td>
+              <td>🤲🏼 Community Service</td>
+              <td>🛍 Conscious Consumer</td>
+              <td>📒 Diarist</td>
+              <td>🔨 DIY</td>
+            </tr>
+            <tr>
+              <td>🌱 Environmentalist</td>
+              <td>🎉 Event Planner</td>
+              <td>💐 Florist</td>
+              <td>💸 Fundraiser</td>
+              <td>🌿 Gardener</td>
+            </tr>
+            <tr>
+              <td>🧠 Good Habits</td>
+              <td>💭 Mindfulness</td>
+              <td>🗣 My Brand</td>
+              <td>🎯 My Goals</td>
+              <td>🏅 My Talents</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>🧭 Survivor</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
         </table>
         <h3>Maybe</h3>
         <table>
-          <tr>
-            <td>📢 Activist</td>
-            <td>🐾 Animal Lover *</td>
-            <td>🩰 Dancer</td>
-            <td>🪡 Designer</td>
-            <td>🖼 Interior Designer</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td>💐 Florist</td>
-            <td></td>
-            <td></td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>📢 Activist</td>
+              <td>🐾 Animal Lover *</td>
+              <td>🩰 Dancer</td>
+              <td>🪡 Designer</td>
+              <td>🖼 Interior Designer</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>💐 Florist</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
         </table>
         <p style={{fontSize: "0.8em"}}>* This one is really difficult to do without a pet, or friends/family
         nearby to pet-sit for.</p>
         <h3>Never say never, but probably not</h3>
         <table>
-          <tr>
-            <td>🚑 Emergency Helper</td>
-            <td>💼 Entrepreneur</td>
-            <td>🔧 Mechanic</td>
-            <td>🚣🏼 Water Sports</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>🚑 Emergency Helper</td>
+              <td>💼 Entrepreneur</td>
+              <td>🔧 Mechanic</td>
+              <td>🚣🏼 Water Sports</td>
+            </tr>
+          </tbody>
         </table>
         <h3>Highly unlikely</h3>
         <table>
-          <tr>
-            <td></td>
-            <td></td>
-            <td>🏊🏼‍♀️ Wild Swimmer</td>
-            <td></td>
-            <td></td>
-          </tr>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>🏊🏼‍♀️ Wild Swimmer</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </>
   )
 }
 
-export default Post;
+export default PostContent;
