@@ -58,130 +58,86 @@ const PostContent = (props) => {
           going to try to complete as much as I can!
         </p>
         <h3><u>Definitely</u></h3>
-        <table>
-          <tbody>
-            <tr>
-              <td>🏠 Adulting</td>
-              <td>🧗🏼‍♀️ Adventurer</td>
-              <td>🧴 Apothecary</td>
-              <td>🍰 Baker</td>
-              <td>🏕 Camper</td>
-            </tr>
-            <tr>
-              <td>🔪 Chef</td>
-              <td>🔐 Codebreaker</td>
-              <td>🧶 Craft</td>
-              <td>📝 Critic</td>
-              <td>🎒 Explorer</td>
-            </tr>
-            <tr>
-              <td>🏋🏼‍♀️ Fitness</td>
-              <td>🪴 Indoor Gardener</td>
-              <td>📈 Investor</td>
-              <td>💬 Linguist</td>
-              <td>👛 Money Saver</td>
-            </tr>
-            <tr>
-              <td>🎵 Musician</td>
-              <td>🌳 My Roots</td>
-              <td>🔥 Outdoor Cooking</td>
-              <td>📷 Photographer</td>
-              <td>📚 Reader</td>
-            </tr>
-            <tr>
-              <td>👟 Runner</td>
-              <td>🛏 Self Care</td>
-              <td>🧏🏼‍♀️ Sign Language</td>
-              <td>🌌 Stargazer</td>
-              <td>🌎 World Traveller</td>
-            </tr>
-            <tr>
-              <td>✏️ Writer</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+        <span className="span-badge">🏠 Adulting</span>
+        <span className="span-badge">🧗🏼‍♀️ Adventurer</span>
+        <span className="span-badge">🧴 Apothecary</span>
+        <span className="span-badge">🍰 Baker</span>
+        <span className="span-badge">🏕 Camper</span>
+        <span className="span-badge">🔪 Chef</span>
+        <span className="span-badge">🔐 Codebreaker</span>
+        <span className="span-badge">🧶 Craft</span>
+        <span className="span-badge">📝 Critic</span>
+        <span className="span-badge">🎒 Explorer</span>
+        <span className="span-badge">🏋🏼‍♀️ Fitness</span>
+        <span className="span-badge">🪴 Indoor Gardener</span>
+        <span className="span-badge">📈 Investor</span>
+        <span className="span-badge">💬 Linguist</span>
+        <span className="span-badge">👛 Money Saver</span>
+        <span className="span-badge">🎵 Musician</span>
+        <span className="span-badge">🌳 My Roots</span>
+        <span className="span-badge">🔥 Outdoor Cooking</span>
+        <span className="span-badge">📷 Photographer</span>
+        <span className="span-badge">📚 Reader</span>
+        <span className="span-badge">👟 Runner</span>
+        <span className="span-badge">🛏 Self Care</span>
+        <span className="span-badge">🧏🏼‍♀️ Sign Language</span>
+        <span className="span-badge">🌌 Stargazer</span>
+        <span className="span-badge">🌎 World Traveller</span>
+        <span className="span-badge">✏️ Writer</span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
+        
         <h3><u>Yes, but not yet</u></h3>
-        <table>
-          <tbody>
-            <tr>
-              <td>🎨 Artist</td>
-              <td>🤲🏼 Community Service</td>
-              <td>🛍 Conscious Consumer</td>
-              <td>📒 Diarist</td>
-              <td>🔨 DIY</td>
-            </tr>
-            <tr>
-              <td>🌱 Environmentalist</td>
-              <td>🎉 Event Planner</td>
-              <td>💐 Florist</td>
-              <td>💸 Fundraiser</td>
-              <td>🌿 Gardener</td>
-            </tr>
-            <tr>
-              <td>🧠 Good Habits</td>
-              <td>💭 Mindfulness</td>
-              <td>🗣 My Brand</td>
-              <td>🎯 My Goals</td>
-              <td>🏅 My Talents</td>
-            </tr>
-            <tr>
-              <td>🧭 Survivor</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+        <span className="span-badge">🎨 Artist</span>
+        <span className="span-badge">🤲🏼 Community Service</span>
+        <span className="span-badge">🛍 Conscious Consumer</span>
+        <span className="span-badge">📒 Diarist</span>
+        <span className="span-badge">🔨 DIY</span>
+        <span className="span-badge">🌱 Environmentalist</span>
+        <span className="span-badge">🎉 Event Planner</span>
+        <span className="span-badge">💐 Florist</span>
+        <span className="span-badge">💸 Fundraiser</span>
+        <span className="span-badge">🌿 Gardener</span>
+        <span className="span-badge">🧠 Good Habits</span>
+        <span className="span-badge">💭 Mindfulness</span>
+        <span className="span-badge">🗣 My Brand</span>
+        <span className="span-badge">🎯 My Goals</span>
+        <span className="span-badge">🏅 My Talents</span>
+        <span className="span-badge">🧭 Survivor</span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
+
         <h3><u>Maybe</u></h3>
-        <table>
-          <tbody>
-            <tr>
-              <td>📢 Activist</td>
-              <td>🐾 Animal Lover *</td>
-              <td>🩰 Dancer</td>
-              <td>🪡 Designer</td>
-              <td>💐 Florist</td>
-            </tr>
-            <tr>
-              <td>🖼 Interior Designer</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+        <span className="span-badge">📢 Activist</span>
+        <span className="span-badge">🐾 Animal Lover *</span>
+        <span className="span-badge">🩰 Dancer</span>
+        <span className="span-badge">🪡 Designer</span>
+        <span className="span-badge">💐 Florist</span>
+        <span className="span-badge">🖼 Interior Designer</span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
         <p style={{fontSize: "0.8em"}}>* I do love animals, but this one is
         difficult to complete without a pet, or friends/family nearby to pet-sit
         for.</p>
+
         <h3><u>Never say never, but probably not</u></h3>
-        <table>
-          <tbody>
-            <tr>
-              <td>🚑 Emergency Helper</td>
-              <td>💼 Entrepreneur</td>
-              <td>🔧 Mechanic</td>
-              <td>🚣🏼 Water Sports</td>
-            </tr>
-          </tbody>
-        </table>
+        <span className="span-badge">🚑 Emergency Helper</span>
+        <span className="span-badge">💼 Entrepreneur</span>
+        <span className="span-badge">🔧 Mechanic</span>
+        <span className="span-badge">🚣🏼 Water Sports</span>
+
         <h3><u>Highly unlikely</u></h3>
-        <table>
-          <tbody>
-            <tr>
-              <td>🏊🏼‍♀️ Wild Swimmer</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+        <span className="span-badge">🏊🏼‍♀️ Wild Swimmer</span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
+        <span className="span-badge"></span>
       </div>
     </>
   )
