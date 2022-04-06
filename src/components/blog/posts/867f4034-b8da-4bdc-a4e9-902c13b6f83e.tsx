@@ -144,12 +144,12 @@ const PostContent = (props) => {
               <td>🐾 Animal Lover *</td>
               <td>🩰 Dancer</td>
               <td>🪡 Designer</td>
-              <td>🖼 Interior Designer</td>
+              <td>💐 Florist</td>
             </tr>
             <tr>
               <td></td>
               <td></td>
-              <td>💐 Florist</td>
+              <td>🖼 Interior Designer</td>
               <td></td>
               <td></td>
             </tr>
