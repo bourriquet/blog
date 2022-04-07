@@ -1,4 +1,6 @@
 import * as React from "react"
+import ReactGA from "react-ga"
+
 import "../index.css"
 
 import Blog from "../components/Blog"
@@ -6,6 +8,8 @@ import Sidebar from "../components/sidebar/Sidebar"
 
 
 const BlogPage = () => {
+  React.useEffect(() => ReactGA.pageview(window.location.pathname))
+
   return (
     <div className="columns">
      <div className="sidebar">

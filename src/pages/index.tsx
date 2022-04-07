@@ -1,7 +1,7 @@
 import * as React from "react"
-import "../index.css"
-
 import App from "./App"
+
+import "../index.css"
 
 const IndexPage = () => {
   return (
