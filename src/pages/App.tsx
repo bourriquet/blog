@@ -1,12 +1,12 @@
 import * as React from "react"
 import "../index.css"
 
-import MePage from "./me"
+import BlogPage from "./blog"
 
 
 const App = () => {
   return (
-    <MePage />
+    <BlogPage />
   )
 }
 
