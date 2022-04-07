@@ -8,7 +8,10 @@ import Sidebar from "../components/sidebar/Sidebar"
 
 
 const BlogPage = () => {
-  React.useEffect(() => ReactGA.pageview(window.location.pathname))
+  React.useEffect(() =>  {
+    ReactGA.initialize("G-T9YV287WJS");
+    ReactGA.pageview(window.location.pathname);
+  })
 
   return (
     <div className="columns">
