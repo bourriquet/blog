@@ -23,8 +23,13 @@ const BlogPost = (props) => {
               </div>
             </div>
             <div>
-              <div className="blog-post-date">
-                {props.date}
+              <div className="blog-post-footer">
+                <div className="blog-post-date">
+                  {props.date}
+                </div>
+                <div className="blog-post-reading-time">
+                  {props.readingTime} read
+                </div>
               </div>
             </div>
           </div>
