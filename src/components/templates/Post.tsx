@@ -13,6 +13,9 @@ const PostTemplate = (props) => {
        <div className="content-container">
          <div className="content">
            <div className="content-box box">
+             <div className="post-title">
+               {props.title}
+             </div>
              {props.content}
            </div>
          </div>
