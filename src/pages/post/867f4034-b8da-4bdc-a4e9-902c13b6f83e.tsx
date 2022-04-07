@@ -8,8 +8,11 @@ import {getBlogPost} from "../../data/blogPosts"
 const postData = getBlogPost("867f4034-b8da-4bdc-a4e9-902c13b6f83e")
 
 const Post = () => {
-  React.useEffect(() => ReactGA.pageview(window.location.pathname))
-  
+  React.useEffect(() =>  {
+    ReactGA.initialize("G-T9YV287WJS");
+    ReactGA.pageview(window.location.pathname);
+  })
+
   return (
     <PostTemplate
       caption={postData.caption}
