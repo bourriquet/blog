@@ -207,6 +207,19 @@ h3 {
   margin-bottom: 1%;
 }
 
+.post-caption {
+  font-size: 1.3em;
+  margin-bottom: 1%;
+}
+
+.post-date {
+  margin-bottom: 0.5%;
+}
+
+.post-reading-time {
+  margin-bottom: 2%;
+}
+
 /* Other */
 
 .span-badge {
@@ -315,5 +328,8 @@ h3 {
   }
   .page-title {
     font-size: 2em;
+  }
+  .post-reading-time {
+    margin-bottom: 5%;
   }
 }
