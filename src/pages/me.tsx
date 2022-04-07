@@ -1,26 +1,10 @@
 import * as React from "react"
-import ReactGA from "react-ga"
-import "../index.css"
-
 import Me from "../components/Me"
-import Sidebar from "../components/sidebar/Sidebar"
-
+import PageTemplate from "../components/templates/Page"
 
 const MePage = () => {
-  React.useEffect(() =>  {
-    ReactGA.initialize("G-T9YV287WJS");
-    ReactGA.pageview(window.location.pathname);
-  })
-
   return (
-    <div className="columns">
-     <div className="sidebar">
-       <Sidebar />
-     </div>
-     <div className="content-container">
-       <Me />
-     </div>
-    </div>
+    <PageTemplate page={<Me />} />
   )
 }
 
