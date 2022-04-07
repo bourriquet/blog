@@ -19,6 +19,7 @@ const Blog = () => {
               post_id={post.id}
               location={post.location}
               photo={post.photo}
+              readingTime={post.readingTime}
               title={post.title}
             />
           )
