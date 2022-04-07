@@ -1,8 +1,6 @@
 import * as React from "react"
 import Me from "../components/Me"
-import Sidebar from "../components/sidebar/Sidebar"
-
-import "../index.css"
+import PageTemplate from "../components/templates/Page"
 
 const MePage = () => {
   React.useEffect(() =>  {
@@ -11,14 +9,7 @@ const MePage = () => {
   })
 
   return (
-    <div className="columns">
-     <div className="sidebar">
-       <Sidebar />
-     </div>
-     <div className="content-container">
-       <Me />
-     </div>
-    </div>
+    <PageTemplate page={<Me />} />
   )
 }
 

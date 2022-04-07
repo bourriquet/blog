@@ -6,9 +6,7 @@ import "../index.css"
 =======
 >>>>>>> 2b13d6c (Tidy up imports)
 import Now from "../components/Now"
-import Sidebar from "../components/sidebar/Sidebar"
-
-import "../index.css"
+import PageTemplate from "../components/templates/Page"
 
 const NowPage = () => {
   React.useEffect(() =>  {
@@ -17,14 +15,7 @@ const NowPage = () => {
   })
 
   return (
-    <div className="columns">
-     <div className="sidebar">
-       <Sidebar />
-     </div>
-     <div className="content-container">
-       <Now />
-     </div>
-  </div>
+    <PageTemplate page={<Now />} />
   )
 }
 
