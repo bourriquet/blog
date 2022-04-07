@@ -14,6 +14,11 @@ body a {
   color: black;
 }
 
+hr {
+  color: #CCCCCC;
+  opacity: 0.5;
+}
+
 h3 {
   margin-top: 3%;
 }

@@ -16,6 +16,7 @@ const PostTemplate = (props) => {
              <div className="post-title">
                {props.title}
              </div>
+             <hr />
              {props.content}
            </div>
          </div>
