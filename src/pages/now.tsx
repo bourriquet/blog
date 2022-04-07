@@ -1,10 +1,14 @@
 import * as React from "react"
+<<<<<<< HEAD
 import ReactGA from "react-ga"
 import "../index.css"
 
+=======
+>>>>>>> 2b13d6c (Tidy up imports)
 import Now from "../components/Now"
 import Sidebar from "../components/sidebar/Sidebar"
 
+import "../index.css"
 
 const NowPage = () => {
   React.useEffect(() =>  {

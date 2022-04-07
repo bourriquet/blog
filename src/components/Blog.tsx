@@ -1,8 +1,6 @@
 import * as React from "react"
-import {blogPosts} from "../data/blogPosts"
-
 import BlogPost from "./blog/BlogPost"
-
+import {blogPosts} from "../data/blogPosts"
 
 const Blog = () => {
   return (

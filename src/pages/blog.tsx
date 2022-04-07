@@ -1,11 +1,8 @@
 import * as React from "react"
-import ReactGA from "react-ga"
-
-import "../index.css"
-
 import Blog from "../components/Blog"
 import Sidebar from "../components/sidebar/Sidebar"
 
+import "../index.css"
 
 const BlogPage = () => {
   React.useEffect(() =>  {

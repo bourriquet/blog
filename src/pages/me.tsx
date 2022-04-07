@@ -1,10 +1,8 @@
 import * as React from "react"
-import ReactGA from "react-ga"
-import "../index.css"
-
 import Me from "../components/Me"
 import Sidebar from "../components/sidebar/Sidebar"
 
+import "../index.css"
 
 const MePage = () => {
   React.useEffect(() =>  {
