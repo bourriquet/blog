@@ -16,7 +16,7 @@ const Blog = () => {
               caption={post.caption}
               date={dateString}
               datePublished={datePublishedString}
-              post_id={post.id}
+              postId={post.id}
               location={post.location}
               photo={post.photo}
               readingTime={post.readingTime}

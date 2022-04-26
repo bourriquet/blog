@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const BlogPost = (props) => {
-  const url = "/post/" + props.post_id
+  const url = "/post/" + props.postId
 
   return (
     <div className="blog-post-list" key={props.index}>
