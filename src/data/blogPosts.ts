@@ -19,7 +19,7 @@ const blogPosts = () => [{
   caption: "Twelve days until my Erasmus year begins",
   tags: ["erasmus", "year_abroad"],
   location: "Great Malvern, UK",
-  readingTime: "3 min",
+  readingTime: "4 min",
 }]
 
 export {blogPosts, getBlogPost};
