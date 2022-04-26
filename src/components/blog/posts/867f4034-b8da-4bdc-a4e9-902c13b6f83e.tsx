@@ -4,6 +4,9 @@ const PostContent = (props) => {
   return (
     <div className="standard-content">
       <p>
+        <em>Updated 26 April 2022 to include the four latest badges.</em>
+      </p>
+      <p>
         My personalised ads are remarkably accurate at times, and Facebook
         really did not miss the mark with
         suggesting <a href="https://www.rebelbadgestore.com/" target="_blank">Rebel Badges</a> for
@@ -59,6 +62,7 @@ const PostContent = (props) => {
       <span className="span-badge">🔪 Chef</span>
       <span className="span-badge">🔐 Codebreaker</span>
       <span className="span-badge">🧶 Craft</span>
+      <span className="span-badge">🪢 Craft (Advanced)</span>
       <span className="span-badge">📝 Critic</span>
       <span className="span-badge">🎒 Explorer</span>
       <span className="span-badge">🏋🏼‍♀️ Fitness</span>
@@ -67,6 +71,7 @@ const PostContent = (props) => {
       <span className="span-badge">💬 Linguist</span>
       <span className="span-badge">👛 Money Saver</span>
       <span className="span-badge">🎵 Musician</span>
+      <span className="span-badge">🪙 My Collection</span>
       <span className="span-badge">🌳 My Roots</span>
       <span className="span-badge">🔥 Outdoor Cooking</span>
       <span className="span-badge">📷 Photographer</span>
@@ -84,6 +89,7 @@ const PostContent = (props) => {
 
       <h3><u>Yes, but not yet</u></h3>
       <span className="span-badge">🎨 Artist</span>
+      <span className="span-badge">👩🏼‍🤝‍👩🏽 Buddy</span>
       <span className="span-badge">🤲🏼 Community Service</span>
       <span className="span-badge">🛍 Conscious Consumer</span>
       <span className="span-badge">📒 Diarist</span>
@@ -107,6 +113,7 @@ const PostContent = (props) => {
       <h3><u>Maybe</u></h3>
       <span className="span-badge">📢 Activist</span>
       <span className="span-badge">🐾 Animal Lover *</span>
+      <span className="span-badge">🧱 Builder</span>
       <span className="span-badge">🩰 Dancer</span>
       <span className="span-badge">🪡 Designer</span>
       <span className="span-badge">💐 Florist</span>
