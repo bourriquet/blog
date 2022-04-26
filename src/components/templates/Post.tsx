@@ -12,6 +12,10 @@ const PostTemplate = (props) => {
          </div>
          <div className="post-date">
            {props.date}
+           {
+             props.date != props.datePublished &&
+              <> (published {props.datePublished}) </>
+           }
          </div>
          <div className="post-reading-time">
            {props.readingTime} read

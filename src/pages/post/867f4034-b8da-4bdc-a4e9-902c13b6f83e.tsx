@@ -14,6 +14,7 @@ const Post = () => {
         caption={postData.caption}
         content={<PostContent />}
         date={postData.date.toLocaleDateString("en-GB", {day: "numeric", month: "long", year: "numeric"})}
+        datePublished={postData.datePublished.toLocaleDateString("en-GB", {day: "numeric", month: "long", year: "numeric"})}
         readingTime={postData.readingTime}
         title={postData.title}
       />

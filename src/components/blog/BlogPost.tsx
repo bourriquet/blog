@@ -26,6 +26,10 @@ const BlogPost = (props) => {
               <div className="blog-post-footer">
                 <div className="blog-post-date">
                   {props.date}
+                  {
+                    props.date != props.datePublished &&
+                     <> (published {props.datePublished}) </>
+                  }
                 </div>
                 <div className="blog-post-reading-time">
                   {props.readingTime} read
