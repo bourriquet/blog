@@ -89,7 +89,7 @@ const PostContent = (props) => {
 
       <h3><u>Yes, but not yet</u></h3>
       <span className="span-badge">🎨 Artist</span>
-      <span className="span-badge">👩🏼‍🤝‍👩🏽 Buddy</span>
+      <span className="span-badge">👯‍♀️ Buddy</span>
       <span className="span-badge">🤲🏼 Community Service</span>
       <span className="span-badge">🛍 Conscious Consumer</span>
       <span className="span-badge">📒 Diarist</span>
