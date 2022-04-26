@@ -8,13 +8,15 @@ const Blog = () => {
       {
         blogPosts().map(function(post, index){
           const dateString = post.date.toLocaleDateString("en-GB", {day: "numeric", month: "long", year: "numeric"})
+          const datePublishedString = post.datePublished.toLocaleDateString("en-GB", {day: "numeric", month: "long", year: "numeric"})
           return (
             <BlogPost
               key={index}
               index={index}
               caption={post.caption}
               date={dateString}
-              post_id={post.id}
+              datePublished={datePublishedString}
+              postId={post.id}
               location={post.location}
               photo={post.photo}
               readingTime={post.readingTime}
