@@ -249,12 +249,12 @@ h3 {
 
 /* SMALLER SCREEN */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1400px) {
   body {
     font-weight: 600;
   }
   h3 {
-    margin-top: 8%;
+    margin-top: 30px;
   }
   .sidebar {
     height: 50px;
@@ -299,6 +299,9 @@ h3 {
   .me-image {
     display: initial;
   }
+  .me-image img {
+    max-width: 500px;
+  }
   .content-container {
     width: 100%;
     margin-left: 0px;
@@ -310,27 +313,35 @@ h3 {
     min-width: 90vw;
   }
   .content-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 90vw;
   }
   .borderless-box {
     width: 90vw;
   }
   .box {
-    padding: 5%;
+    padding: 20px;
   }
   .blog-post {
     height: 120px;
-    padding: 2%;
+    padding: 5px;
     box-sizing: border-box;
+  }
+  .blog-post-details {
+    padding: 5px;
   }
   .blog-post-title {
     font-size: 1.3em;
+    margin-bottom: 3px;
   }
   .blog-post-caption {
     font-size: 1.1em;
+    margin-bottom: 0px;
   }
   .blog-post-footer {
     font-size: 1em;
+    margin-bottom: 0px;
   }
   .blog-post-location {
     font-size: 1em;
@@ -342,12 +353,12 @@ h3 {
     font-size: 1.1em;
   }
   .now-lines div {
-    margin-top: 5%;
+    margin-top: 20px;
   }
   .page-title {
     font-size: 2em;
   }
   .post-reading-time {
-    margin-bottom: 5%;
+    margin-bottom: 20px;
   }
 }
