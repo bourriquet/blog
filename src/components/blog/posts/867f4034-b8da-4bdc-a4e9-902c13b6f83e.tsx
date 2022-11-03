@@ -4,13 +4,13 @@ const PostContent = (props) => {
   return (
     <div className="standard-content">
       <p>
-        <em>Updated 26 April 2022 to include the four latest badges.</em>
+        <em>Updated 26 April 2022 to include four new badges.</em>
       </p>
       <p>
         My personalised ads are remarkably accurate at times, and Facebook
         really did not miss the mark with
-        suggesting <a href="https://www.rebelbadgestore.com/" target="_blank">Rebel Badges</a> for
-        me. The concept is very simple - 53 merit badges to work
+        suggesting the <a href="https://www.rebelbadgestore.com/" target="_blank">Rebel Badge Book</a> for
+        me. The concept is very simple - 52 merit badges to work
         towards and collect, just like Scouts/Guides, but for adults.
       </p>
       <p>
