@@ -70,7 +70,7 @@ const PostContent = (props) => {
       <p>
         <PostImageSingle
           caption="The moment it all became very real... posting off my paperwork to UU"
-          image="https://lauren-anders-blog.s3.eu-west-2.amazonaws.com/f5547670-a3d8-4b32-84b5-c378dec42ff9_1"
+          image="https://lauren-anders-blog.s3.eu-west-2.amazonaws.com/f5547670-a3d8-4b32-84b5-c378dec42ff9_cover"
         />
       </p>
       <p>
@@ -102,7 +102,7 @@ const PostContent = (props) => {
       <p>
         <PostImageSingle
           caption="At the top of the Malvern Hills, my home for the last couple of months"
-          image="https://lauren-anders-blog.s3.eu-west-2.amazonaws.com/f5547670-a3d8-4b32-84b5-c378dec42ff9_2"
+          image="https://lauren-anders-blog.s3.eu-west-2.amazonaws.com/f5547670-a3d8-4b32-84b5-c378dec42ff9_1"
           portrait
         />
       </p>
