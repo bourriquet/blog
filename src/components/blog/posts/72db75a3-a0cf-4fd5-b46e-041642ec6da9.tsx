@@ -271,12 +271,19 @@ const PostContent = (props) => {
         seat isn't the most comfortable, and I will be on my bike <i>a lot</i> over
         the next two weeks, so I definitely need some support. I also picked up
         a new high-vis jacket as my current one isn't very breathable. The new
-        one is only splashproof but it's at least very light for cycling.
+        one is only splashproof but it's at least very light for cycling. I hate
+        cycling in sunglasses, but over 1,000 miles, I knew that I would end
+        up needing to use them at some point. I found a pair and even though I
+        haven't worn them yet, I've somehow managed to scratch the lens!
+      </p>
+
+      <p>
         Another essential for me is cycling gloves. My hands are quite small and
-        they cramp up on my handles over long distances. Gloves take off a little bit
-        of that pressure while trying to maintain my grip. I already had some
-        (very cheap) cycling gloves in a very beautiful fluorescent orange, but
-        I will be taking some weight training gloves as a back up.
+        they cramp up on my handles over long distances, especially in the rain.
+        Gloves take off a little bit of that pressure while trying to maintain
+        my grip. I already had some (very cheap) cycling gloves in a very
+        beautiful fluorescent orange, but I will be taking some weight training
+        gloves as a back up.
       </p>
 
       <p>
@@ -321,6 +328,14 @@ const PostContent = (props) => {
         and me a blow-up sleeping mat with attached pillow. No cooking equipment
         - we just didn’t have the room, and I feel like we’ll be wanting more
         substantial meals after burning 4,000+ calories a day!
+      </p>
+
+      <p>
+        As we’ll be relying on our phones a lot throughout the trip for
+        navigating, taking photos and recording on Strava, we needed an electric
+        hook-up. It’ll add on significant weight/bulk to our bikes, but we
+        figured it’d be worth it for guaranteed electricity. I don’t think we’ll
+        have enough time to sit in pubs or cafes waiting for phones to charge.
       </p>
 
       <h3>Training</h3>
