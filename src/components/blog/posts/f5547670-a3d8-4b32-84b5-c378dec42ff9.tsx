@@ -86,7 +86,7 @@ const PostContent = (props) => {
         called <em>Speak Dutch in 3 Months</em>. I haven’t opened it. It’s in my
         wardrobe. The thought was there, but it’s too late now, and I’m hoping
         that my GCSE German and eight years worth of French will at least help
-        me to pick up a little bit of Dutch!
+        me to pick up a little bit of Dutch.
       </p>
       <p>
         Preparing for my big move is pretty much taking over my life right now,

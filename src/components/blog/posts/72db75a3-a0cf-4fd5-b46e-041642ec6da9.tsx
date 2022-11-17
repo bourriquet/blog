@@ -54,7 +54,7 @@ const PostContent = (props) => {
       <p>
         I wasn't too keen on cycling on A-roads the whole way, so the fastest
         route was immediately off the table. The <a target="_blank" href="https://www.sustrans.org.uk/national-cycle-network/lands-end-to-john-ogroats-lejog">Sustrans route</a> was
-        a good candidate as it is entirely on traffic-free paths and quiet roads
+        a good candidate as it is entirely traffic-free paths and quiet roads
         - perfect for me! However, I'm planning on taking my road bike, which
         won't cope well on some of the off-road paths, and I wasn't up
         for buying a new bike just for this trip.
@@ -114,8 +114,8 @@ const PostContent = (props) => {
         Living in London, it was pretty much a no-brainer for us to take the
         train to the end-points, rather than fly or rent cars. The train can get
         you 15 miles from Land's End and ~20 miles from John o'Groats, so not
-        too far to cycle. Flying would have meant sorting out bike boxes at
-        either end, plus transportation to/from Exeter and Inverness airports.
+        too far to cycle at either end. Flying would have meant sorting out bike
+        boxes at either end, plus transportation to/from Exeter and Inverness airports.
         Driving would have just been a horrible nightmare, not even worth considering.
       </p>
 
@@ -134,7 +134,7 @@ const PostContent = (props) => {
         given the year of the staycation. Cycle-friendly hotel/B&B availability
         was looking sparse, and more expensive than we were prepared to pay for
         this trip. We figured camping would give us more flexibility, save us
-        some money and would also add to the adventure. The real adventure would
+        some money and also add to the adventure. The real adventure would
         have been to wild camp the entire way, but we wanted to keep the camping
         equipment we needed to carry to a minimum. I also didn't want to be
         washing in lakes for two weeks!
@@ -236,14 +236,14 @@ const PostContent = (props) => {
         mine took a bit longer. One workaround we'd found to attach a rear rack
         to a bike without eyelets is to use <a target="_blank" href="https://www.decathlon.co.uk/p/mp/tortec/p-clips/_/R-p-c2fa9fd8-3d6b-4581-b01b-793af30e140e?mc=c2fa9fd8-3d6b-4581-b01b-793af30e140e_c1&utm_term=429db383-d321-47b5-b806-c7b91d332ebc&gclid=CjwKCAjwtIaVBhBkEiwAsr7-cwSTu2PntaoQU1Ehl5Gj5Kw4bHvvEFjCxVAPd0o0PI1qUQXv2__4dRoCr0wQAvD_BwE&iv_=__iv_p_1_g_135919246024_c_557229211113_w_aud-1032351663542%253Apla-329717981662_n_g_d_c_v__l__t__r_x_pla_y_15177021_f_online_o_429db383-d321-47b5-b806-c7b91d332ebc_z_GB_i_en_j_329717981662_s__e__h_9045909_ii__vi__&gclsrc=aw.ds">P-clips</a> (essentially
         mini clamps). Four P-clips later and my rear rack was attached to my
-        bike, and it felt much more secure than I was expecting! I've done a
+        bike, and it felt much more secure than I was expecting. I've done a
         couple of test rides with weights in my panniers and the P-clips haven't
         slipped at all. We'll be taking some spares with us though as I doubt
         that will be the case over 1,000 miles.
       </p>
 
       <p>
-        We did have less luck attaching mudguards to my bike. While I did have
+        We had less luck attaching mudguards to my bike. While I did have
         eyelets near my wheels, there just wasn’t enough clearance between the
         tyre and the frame to attach the guards. I was so desperate to get them
         to fit, that we even tried sawing down the attachment, but there was no
@@ -274,7 +274,9 @@ const PostContent = (props) => {
         one is only splashproof but it's at least very light for cycling. I hate
         cycling in sunglasses, but over 1,000 miles, I knew that I would end
         up needing to use them at some point. I found a pair and even though I
-        haven't worn them yet, I've somehow managed to scratch the lens!
+        haven't worn them yet, I've somehow managed to scratch the lens! We’ve
+        both decided not to bother with cleats or waterproof shoes, another
+        decision we’ll probably regret.
       </p>
 
       <p>
@@ -327,7 +329,7 @@ const PostContent = (props) => {
         Berghaus summer sleeping bags, Jonathan a self-inflating sleeping mat,
         and me a blow-up sleeping mat with attached pillow. No cooking equipment
         - we just didn’t have the room, and I feel like we’ll be wanting more
-        substantial meals after burning 4,000+ calories a day!
+        substantial meals after burning 4,000+ calories a day.
       </p>
 
       <p>
@@ -344,10 +346,10 @@ const PostContent = (props) => {
         this trip… cycling the London Loop, cycling to Brighton, maybe even a
         weekend cycling around the Isle of Wight, throwing in some much-needed
         hill training along the way. None of this happened, nor has any real
-        long-distance training at that! Luckily, I do work out a lot as it is,
+        long-distance training at that. Luckily, I do work out a lot as it is,
         so I’ve made myself feel better by convincing myself that it’s all
         cross-training. Even so, the closer the trip has become, the more I’ve
-        panicked about my lack of training, especially the hills.
+        panicked about my lack of training, especially when it comes to hills.
       </p>
 
       <p>
@@ -373,7 +375,7 @@ const PostContent = (props) => {
         half an hour later, my back tyre was completely flat. 7 miles from home,
         no spare inner tubes and too late for any bike workshops to still be
         open. I had no choice but to start walking home with the bike (terrible
-        for the wheel of course!), until Jonathan was back from swimming and
+        for the wheel of course), until Jonathan was back from swimming and
         could pick me and my out-of-action bike up.
       </p>
 
@@ -398,9 +400,9 @@ const PostContent = (props) => {
       </p>
 
       <p>
-        Luckily, I managed to get a new tyre delivered in time (bit of a panic
-        as I wasn’t due to be at home on delivery day!), and I got out on a
-        longer drama-free test cycle earlier today.
+        Luckily, I managed to get a new tyre delivered yesterday (bit of a panic
+        as I wasn’t due to be at home), and I got out on a longer drama-free
+        test cycle earlier today.
       </p>
 
       <h3>Sightseeing</h3>
