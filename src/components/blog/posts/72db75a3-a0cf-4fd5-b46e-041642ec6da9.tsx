@@ -426,8 +426,7 @@ const PostContent = (props) => {
       </p>
 
       <p>
-        I'll be posting after the trip to see how many of these we do manage
-        to tick off!
+        I'll be posting after the trip to see how many of these we manage to do!
       </p>
     </div>
   )
