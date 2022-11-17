@@ -32,7 +32,7 @@ const PostContent = (props) => {
         those planning a similar trip, and maybe of interest to others.
       </p>
 
-      <h3>Going It Alone</h3>
+      <h3>Going it alone</h3>
       <p>
         This was one of the first decisions we made, and it was quite an easy
         one for us. There is no shortage of companies offering LEJOG/JOGLE
@@ -50,7 +50,7 @@ const PostContent = (props) => {
         and carrying everything with us that added to the fun!
       </p>
 
-      <h3>The Route</h3>
+      <h3>The route</h3>
       <p>
         I wasn't too keen on cycling on A-roads the whole way, so the fastest
         route was immediately off the table. The <a target="_blank" href="https://www.sustrans.org.uk/national-cycle-network/lands-end-to-john-ogroats-lejog">Sustrans route</a> was
@@ -160,7 +160,7 @@ const PostContent = (props) => {
         />
       </p>
 
-      <h3>The Noble Steeds</h3>
+      <h3>The wheels</h3>
       <p>
         Hybrid/touring bikes are recommended for unsupported long-distance
         cycles, but I had already resigned to taking my road bike for this trip.
@@ -203,7 +203,7 @@ const PostContent = (props) => {
         notice.
       </p>
 
-      <h3>Bike Equipment</h3>
+      <h3>Bike equipment</h3>
       <p>
         This would be our first touring trip, so we had a fair bit of equipment
         to buy. By far the most important things were panniers and rear racks.
@@ -294,7 +294,7 @@ const PostContent = (props) => {
         the bargain bin at Go Outdoors, as well as a handful of inner tubes.
       </p>
 
-      <h3>Camping Equipment</h3>
+      <h3>Camping equipment</h3>
       <p>
         I've always written off camping as being <em>not for me</em>. I'm a
         fairly light sleeper and I find the whole experience cramped and very
