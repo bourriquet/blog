@@ -33,6 +33,16 @@ const blogPosts = () => [{
   readingTime: "14 min",
   nextPostId: "48427dad-dc2c-49e9-8c9e-b4a0de45785a",
 },{
+  id: "87b88cb7-3d1e-4fb5-aef7-9d30ffa39347",
+  date: new Date(2013, 7, 28),
+  datePublished: new Date(2022, 10, 30),
+  photo: "https://lauren-anders-blog.s3.eu-west-2.amazonaws.com/87b88cb7-3d1e-4fb5-aef7-9d30ffa39347_cover",
+  title: "Malvern to Merseyside",
+  caption: "Wrapping up my summer internship",
+  tags: ["erasmus", "year_abroad", "internship"],
+  location: "Prescot, UK",
+  readingTime: "2 min",
+},{
   id: "f5547670-a3d8-4b32-84b5-c378dec42ff9",
   date: new Date(2013, 7, 20),
   datePublished: new Date(2022, 3, 26),
