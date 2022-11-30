@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const PostContent = (props) => {
   return (
-    <div className="standard-content">
+    <>
       <p>
         <em>While cycling from Lands End to John o'Groats was a trip of a
         lifetime, I also fundraised for <a href="https://www.mind.org.uk/" target="_blank">Mind UK</a> along
@@ -372,7 +372,7 @@ const PostContent = (props) => {
         />
       </p>
 
-    </div>
+    </>
   )
 }
 

@@ -246,6 +246,10 @@ h3 {
   display: inline-block;
 }
 
+.next-post-box {
+  text-align: right;
+}
+
 
 /* SMALLER SCREEN */
 

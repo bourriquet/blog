@@ -3,7 +3,7 @@ import PostImageSingle from "../PostImageSingle"
 
 const PostContent = (props) => {
   return (
-    <div className="standard-content">
+    <>
       <p>
         There are only twelve days to go until I up sticks and move to the
         Netherlands for my Erasmus year
@@ -106,7 +106,7 @@ const PostContent = (props) => {
           portrait
         />
       </p>
-    </div>
+    </>
   )
 }
 

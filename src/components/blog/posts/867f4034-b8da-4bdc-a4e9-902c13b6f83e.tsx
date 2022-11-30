@@ -2,7 +2,7 @@ import * as React from "react"
 
 const PostContent = (props) => {
   return (
-    <div className="standard-content">
+    <>
       <p>
         <em>Updated 26 April 2022 to include four new badges.</em>
       </p>
@@ -138,7 +138,7 @@ const PostContent = (props) => {
       <span className="span-badge"></span>
       <span className="span-badge"></span>
       <span className="span-badge"></span>
-    </div>
+    </>
   )
 }
 
