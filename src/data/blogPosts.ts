@@ -20,6 +20,7 @@ const blogPosts = () => [{
   tags: ["lejog", "cycling"],
   location: "Cornwall, UK",
   readingTime: "7 min",
+  previousPostId: "72db75a3-a0cf-4fd5-b46e-041642ec6da9",
 }, {
   id: "72db75a3-a0cf-4fd5-b46e-041642ec6da9",
   date: new Date(2021, 7, 8),
@@ -30,6 +31,7 @@ const blogPosts = () => [{
   tags: ["lejog", "cycling"],
   location: "London, UK",
   readingTime: "14 min",
+  nextPostId: "48427dad-dc2c-49e9-8c9e-b4a0de45785a",
 },{
   id: "f5547670-a3d8-4b32-84b5-c378dec42ff9",
   date: new Date(2013, 7, 20),

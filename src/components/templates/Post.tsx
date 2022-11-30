@@ -9,6 +9,15 @@ const formatDate = (date) => {
 
 const PostTemplate = (props) => {
   const postData = getBlogPost(props.postId)
+  const nextPostData = postData.nextPostId !== undefined ? getBlogPost(postData.nextPostId) : null
+  const previousPostData = postData.previousPostId !== undefined ? getBlogPost(postData.previousPostId) : null
+
+  const hasNextPost = () => {
+    return nextPostData !== null
+  }
+  const hasPreviousPost = () => {
+    return previousPostData !== null
+  }
 
   return (
      <div className="content">
@@ -30,7 +39,24 @@ const PostTemplate = (props) => {
            {postData.readingTime} read
          </div>
          <hr />
-         {props.content}
+         <div className="standard-content">
+           {props.content}
+           {(hasNextPost() || hasPreviousPost()) &&
+            <>
+              <hr />
+              <span>
+                {hasPreviousPost() &&
+                  <p><em>Previous post: <Link to={"/post/" + previousPostData.id}>{previousPostData.title}</Link></em></p>
+                }
+              </span>
+              <span className="next-post-box">
+                {hasNextPost() &&
+                  <p><em>Next post: <Link to={"/post/" + nextPostData.id}>{nextPostData.title}</Link></em></p>
+                }
+              </span>
+            </>
+          }
+        </div>
        </div>
      </div>
   )

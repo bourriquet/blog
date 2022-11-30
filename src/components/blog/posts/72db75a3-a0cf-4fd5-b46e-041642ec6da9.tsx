@@ -3,7 +3,7 @@ import PostImageSingle from "../PostImageSingle"
 
 const PostContent = (props) => {
   return (
-    <div className="standard-content">
+    <>
       <p>
         Two sentences I never thought I’d say: <em>“I’m going to cycle 1,000
         miles across the country”</em> and <em>“I’m going to spend 15
@@ -428,7 +428,7 @@ const PostContent = (props) => {
       <p>
         I'll be posting after the trip to see how many of these we manage to do!
       </p>
-    </div>
+    </>
   )
 }
 
