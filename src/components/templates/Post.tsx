@@ -1,24 +1,33 @@
 import * as React from "react"
+import { Link } from "gatsby"
+
+import {getBlogPost} from "../../data/blogPosts"
+
+const formatDate = (date) => {
+  return date.toLocaleDateString("en-GB", {day: "numeric", month: "long", year: "numeric"})
+}
 
 const PostTemplate = (props) => {
+  const postData = getBlogPost(props.postId)
+
   return (
      <div className="content">
        <div className="content-box box">
          <div className="post-title">
-           {props.title}
+           {postData.title}
          </div>
          <div className="post-caption">
-           {props.caption}
+           {postData.caption}
          </div>
          <div className="post-date">
-           {props.date}
+           {formatDate(postData.date)}
            {
-             props.date != props.datePublished &&
-              <> (published {props.datePublished}) </>
+             postData.date.getTime() != postData.datePublished.getTime() &&
+              <> (published {formatDate(postData.datePublished)}) </>
            }
          </div>
          <div className="post-reading-time">
-           {props.readingTime} read
+           {postData.readingTime} read
          </div>
          <hr />
          {props.content}
