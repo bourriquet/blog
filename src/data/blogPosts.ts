@@ -11,6 +11,16 @@ const blogPosts = () => [{
   location: "London, UK",
   readingTime: "3 min",
 }, {
+  id: "48427dad-dc2c-49e9-8c9e-b4a0de45785a",
+  date: new Date(2021, 7, 9),
+  datePublished: new Date(2022, 10, 26),
+  photo: "https://lauren-anders-blog.s3.eu-west-2.amazonaws.com/48427dad-dc2c-49e9-8c9e-b4a0de45785a_cover",
+  title: "LEJOG Day 0",
+  caption: "London to Lands End",
+  tags: ["lejog", "cycling"],
+  location: "Cornwall, UK",
+  readingTime: "7 min",
+}, {
   id: "72db75a3-a0cf-4fd5-b46e-041642ec6da9",
   date: new Date(2021, 7, 8),
   datePublished: new Date(2022, 10, 3),
