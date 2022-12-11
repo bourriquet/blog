@@ -41,7 +41,7 @@ const blogPosts = () => [{
   caption: "First impressions of Utrecht",
   tags: ["erasmus", "year_abroad"],
   location: "Utrecht, NL",
-  readingTime: "2 min",
+  readingTime: "4 min",
 },{
   id: "87b88cb7-3d1e-4fb5-aef7-9d30ffa39347",
   date: new Date(2013, 7, 28),
