@@ -33,6 +33,16 @@ const blogPosts = () => [{
   readingTime: "14 min",
   nextPostId: "48427dad-dc2c-49e9-8c9e-b4a0de45785a",
 },{
+  id: "ea65a12f-c8af-45b4-9ba3-63210436f397",
+  date: new Date(2013, 8, 3),
+  datePublished: new Date(2022, 11, 11),
+  photo: "https://lauren-anders-blog.s3.eu-west-2.amazonaws.com/ea65a12f-c8af-45b4-9ba3-63210436f397_cover",
+  title: "Off to Netherlands!",
+  caption: "First impressions of Utrecht",
+  tags: ["erasmus", "year_abroad"],
+  location: "Utrecht, NL",
+  readingTime: "2 min",
+},{
   id: "87b88cb7-3d1e-4fb5-aef7-9d30ffa39347",
   date: new Date(2013, 7, 28),
   datePublished: new Date(2022, 10, 30),
