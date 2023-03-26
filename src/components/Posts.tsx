@@ -2,7 +2,7 @@ import * as React from "react"
 import BlogPost from "./blog/BlogPost"
 import {blogPosts} from "../data/blogPosts"
 
-const Blog = () => {
+const Posts = () => {
   return (
     <div className="content">
       {
@@ -29,4 +29,4 @@ const Blog = () => {
   )
 }
 
-export default Blog;
+export default Posts;

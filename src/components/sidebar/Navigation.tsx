@@ -9,7 +9,7 @@ const navData = [{
   route: "/now",
 }, {
   name: "Blog",
-  route: "/blog",
+  route: "/posts",
 }]
 
 const Navigation = () => {
