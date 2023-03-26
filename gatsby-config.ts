@@ -15,4 +15,8 @@ const config: GatsbyConfig = {
   }]
 };
 
+module.exports = {
+  pathPrefix: "/blog",
+}
+
 export default config;

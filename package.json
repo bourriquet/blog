@@ -12,7 +12,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
@@ -25,6 +26,7 @@
     "gatsby-plugin-sharp": "^4.10.1",
     "gatsby-source-filesystem": "^4.10.0",
     "gatsby-transformer-sharp": "^4.10.0",
+    "gh-pages": "^5.0.0",
     "notion-client": "^4.19.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
