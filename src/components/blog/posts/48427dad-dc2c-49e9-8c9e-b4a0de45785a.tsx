@@ -25,11 +25,11 @@ const PostContent = (props) => {
         we’d be spending the night before the Grand Départ the next morning. Our
         first test was the cycle to Paddington station with our bikes loaded up
         with all of our things for the next 16 days. Of course, it was pouring
-        down with rain for the first cycle of the trip, thankfully not a sign of
-        things to come. First hurdle for me… actually getting on my bike. The
-        weight and width of the loaded panniers made things a little unstable,
-        and my bike nearly ended up flat on the floor while I was trying to get
-        on it. Second attempt and I was safely on.
+        down with rain for the first cycle of the trip, but the first hurdle for
+        me was actually getting on my bike. The weight and width of the loaded
+        panniers made things a little unstable, and my bike nearly ended up flat
+        on the floor while I was trying to get on it. Second attempt and I was
+        safely on.
       </p>
 
       <p>
@@ -166,7 +166,7 @@ const PostContent = (props) => {
 
       <p>
         However, I’d made one catastrophic mistake… I hadn’t checked the
-        elevation profile. As soon as we’d left Penzance, it was straight into a
+        elevation profile. As soon as we left Penzance, it was straight into a
         14% incline. No easing ourselves into it or getting used to the added
         weight on our bikes. It was a bit of a shock to the system, and I ended
         up walking most of this first incline, which sparked a few laughs from a
@@ -236,7 +236,7 @@ const PostContent = (props) => {
       </p>
 
       <p>
-        There weren’t too many options for food in Sennen, so, being by the
+        There weren’t too many options for food in Sennen, but, being by the
         seaside, it had to be a chippy. I think everyone else in Lands End had
         the same idea, as we had quite a long wait outside for our food. The
         perfect opportunity to pick up some local Tribute ale.
@@ -251,8 +251,8 @@ const PostContent = (props) => {
       </p>
 
       <p>
-        We walked down to the Lands End landmark to check things out. I'd only
-        read bad things about Lands End, that it’s purely a tourist trap (true)
+        We walked down to the Lands End landmark to check things out. I'd read
+        mostly bad things about Lands End, that it’s purely a tourist trap (true)
         and that there isn't much to see or do (also true). We’d really lucked
         out with the beautiful sunset, which only added to the stunning views
         from the most south-westernly tip of mainland England.
@@ -353,7 +353,7 @@ const PostContent = (props) => {
       </p>
 
       <p>
-        Back to the campsite for a timed 5 minute token shower and an early
+        Back to the campsite for a timed 5 minute shower and an early
         night ahead of the big day tomorrow. I hadn’t seen such a clear sky in a
         very long time!
       </p>

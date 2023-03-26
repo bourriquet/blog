@@ -18,11 +18,10 @@ const PostContent = (props) => {
         about a month (I’m sure my empty sash is somewhere in the attic), but
         I do remember reading the badge book cover to cover. For some reason,
         bell ringing is what first comes to mind when I think about that book,
-        not that I was ever going to pursue that! Now that I’m all
-        grown, I love setting myself personal challenges and
-        trying new things. Having had a look through the Rebel Badges and the
-        clauses to complete for them, I found that some of them were things
-        that I already wanted to do one day.
+        not that I was ever going to pursue that! Now, I love setting
+        myself personal challenges and trying new things. Having had a look
+        through the Rebel Badges and the clauses to complete for them, I found
+        that some of them were things that I already wanted to do one day.
       </p>
       <p>
         Case in point: this blog! I’ve been meaning to set this blog up since
