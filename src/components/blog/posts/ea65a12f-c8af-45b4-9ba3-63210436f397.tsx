@@ -53,7 +53,7 @@ const PostContent = (props) => {
         In our flat, we have one English (me), one Welsh, four Spanish, one
         Austrian, two Romanian and one Australian, so quite a mix. My room is
         quite big (at least double the size of my room in my first year halls in
-        London), with a very bright orange wall, a fitting welcome to Oranje!
+        London), with a very bright orange wall - a fitting welcome to Oranje!
       </p>
 
       <p>

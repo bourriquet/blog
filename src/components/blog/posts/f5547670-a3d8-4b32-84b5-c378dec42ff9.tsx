@@ -32,10 +32,9 @@ const PostContent = (props) => {
         no formal partnerships between my department and American/Canadian
         departments, I would be classed as a “visiting student” and would have
         to pay a substantial fee per course I took. Add to that the cost of
-        flights, health insurance and accommodation, and there was no way I
-        could make it work (I did the maths multiple times) and still be able to
-        enjoy myself without having to work part-time, if that was even
-        permitted on a student visa.
+        flights and accommodation, and there was no way I could make it work (I
+        did the maths multiple times) and still be able to enjoy myself without
+        having to work part-time, if that was even permitted on a student visa.
       </p>
       <p>
         There were other options, though. I’d continued studying French as an
@@ -51,7 +50,7 @@ const PostContent = (props) => {
       <p>
         One of my friends asked me if I’d considered studying at UU. I hadn’t -
         I’d assumed that I’d have to know Dutch, which I didn’t, but that turned
-        out to not be the case! Part of the Erasmus programme, UU had a large
+        out to not be a requirement. Part of the Erasmus programme, UU had a large
         number of exchange students, and most modules would be taught in
         English. Bonus, being part of Erasmus, I’d have no tuition fees and I’d
         be eligible for the Erasmus grant, taking away a good portion of my
