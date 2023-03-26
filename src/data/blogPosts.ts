@@ -47,7 +47,7 @@ const blogPosts = () => [{
   date: new Date(2013, 8, 3),
   datePublished: new Date(2022, 11, 11),
   photo: "https://lauren-anders-blog.s3.eu-west-2.amazonaws.com/ea65a12f-c8af-45b4-9ba3-63210436f397_cover",
-  title: "Off to Netherlands!",
+  title: "Off to the Netherlands!",
   caption: "First impressions of Utrecht",
   tags: ["erasmus", "year_abroad"],
   location: "Utrecht, NL",
