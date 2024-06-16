@@ -16,10 +16,10 @@ const blogPosts = () => [{
   datePublished: new Date(2022, 10, 26),
   photo: "https://lauren-anders-blog.s3.eu-west-2.amazonaws.com/48427dad-dc2c-49e9-8c9e-b4a0de45785a_cover",
   title: "Journey to the end of England",
-  caption: "Ready to start our LEJOG journey",
+  caption: "Ready to start LEJOG",
   tags: ["lejog", "cycling"],
   location: "Cornwall, UK",
-  readingTime: "7 min",
+  readingTime: "5 min",
   previousPostId: "72db75a3-a0cf-4fd5-b46e-041642ec6da9",
 }, {
   id: "72db75a3-a0cf-4fd5-b46e-041642ec6da9",
@@ -30,7 +30,7 @@ const blogPosts = () => [{
   caption: "1,000 miles across the country on two wheels",
   tags: ["lejog", "cycling"],
   location: "London, UK",
-  readingTime: "14 min",
+  readingTime: "11 min",
   nextPostId: "48427dad-dc2c-49e9-8c9e-b4a0de45785a",
 },{
   id: "0f1c4db2-3b2d-498d-85c6-01049e0cd44a",
