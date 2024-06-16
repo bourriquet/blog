@@ -5,6 +5,9 @@ const PostContent = (props) => {
   return (
     <>
       <p>
+        <em>Transferred from my old Year Abroad blog.</em>
+      </p>
+      <p>
         There are only twelve days to go until I up sticks and move to the
         Netherlands for my Erasmus year
         at <a target="_blank" href="https://www.uu.nl/en">Universiteit Utrecht</a>.
@@ -25,19 +28,20 @@ const PostContent = (props) => {
       </p>
       <p>
         Why Utrecht? I’ll be honest, while I’ve always wanted to study abroad
-        since I knew it was a thing, I’d only ever really considered going to
+        since I learned it was a thing, I’d only ever really considered going to
         the US or Canada. When it came to choosing my year abroad options in my
         second year, I started looking into the options available to me in the
         US and Canada, and there was absolutely no way I could afford it. With
         no formal partnerships between my department and American/Canadian
         departments, I would be classed as a “visiting student” and would have
         to pay a substantial fee per course I took. Add to that the cost of
-        flights and accommodation, and there was no way I could make it work (I
-        did the maths multiple times) and still be able to enjoy myself without
-        having to work part-time, if that was even permitted on a student visa.
+        flights and accommodation, and there was no way I could make it work and
+        still be able to enjoy myself without having to work part-time (I did
+        the maths multiple times), if working was even permitted on a student
+        visa.
       </p>
       <p>
-        There were other options, though. I’d continued studying French as an
+        There were other options, though. I was studying French as an
         extra-curricular at university, but while my everyday French was
         probably good enough to get by, I wasn’t confident that my French
         Geophysics vocabulary would be strong enough. I was finding the
@@ -50,9 +54,9 @@ const PostContent = (props) => {
       <p>
         One of my friends asked me if I’d considered studying at UU. I hadn’t -
         I’d assumed that I’d have to know Dutch, which I didn’t, but that turned
-        out to not be a requirement. Part of the Erasmus programme, UU had a large
-        number of exchange students, and most modules would be taught in
-        English. Bonus, being part of Erasmus, I’d have no tuition fees and I’d
+        out to not be a requirement at all. Part of the Erasmus programme, UU
+        had a large number of exchange students, and most modules would be taught
+        in English. Bonus, being part of Erasmus, I’d have no tuition fees and I’d
         be eligible for the Erasmus grant, taking away a good portion of my
         money worries for the year. I spoke to the person from my department
         currently on exchange at UU and I was sold. Utrecht looked beautiful and
@@ -84,7 +88,7 @@ const PostContent = (props) => {
         everything was confirmed with my year abroad, I bought a book
         called <em>Speak Dutch in 3 Months</em>. I haven’t opened it. It’s in my
         wardrobe. The thought was there, but it’s too late now, and I’m hoping
-        that my GCSE German and eight years worth of French will at least help
+        that my GCSE in German and eight years worth of French will at least help
         me to pick up a little bit of Dutch.
       </p>
       <p>

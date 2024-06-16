@@ -5,15 +5,18 @@ const PostContent = (props) => {
   return (
     <>
       <p>
+        <em>Transferred from my old Year Abroad blog.</em>
+      </p>
+      <p>
         The year abroad has begun! I arrived in Utrecht two days ago without any
         major problems.
       </p>
 
       <p>
         I flew from Manchester to Amsterdam with KLM. On checking in, I was
-        offered to check in my hand luggage for free which I went for, but my
+        offered to check in my hand luggage for free, which I opted for, but my
         case arrived in Amsterdam with a broken handle. Not only that, but my
-        hold luggage was going around the carousel slightly open with a shirt
+        other suitcase was going around the carousel slightly open with a shirt
         sleeve hanging out! Luckily, I think everything stayed in. A pretty
         quick and non-eventful flight; this was the first time I’d ever flown
         alone and I was feeling <em>very</em> adult.
@@ -22,12 +25,10 @@ const PostContent = (props) => {
       <p>
         Amsterdam Schiphol airport is <em>huge</em>. I was very thankful that
         ESN (Erasmus Student Network) had organised a welcome meet at the
-        airport to help us buy train tickets and usher us onto trains to
-        Utrecht. The intercity trains here are double-deckered and very clean
-        with free Wifi (I’m used to Northern Rail’s converted bus Pacer trains
-        and London Underground). It was €8 for the 20 minute journey to Utrecht,
-        which seemed expensive at first but is actually quite decent considering
-        the distance.
+        airport to help us buy train tickets and usher us onto the 20 minute
+        train to Utrecht. The intercity trains here are double-deckered and very
+        clean with free Wifi (I’m used to Northern Rail’s converted bus Pacer
+        trains and London Underground).
       </p>
 
       <p>
@@ -42,8 +43,8 @@ const PostContent = (props) => {
 
       <p>
         As an international student, I had a choice of a few student halls
-        offered by SSH Student Housing. I chose Tuindorp-West Complex as it is
-        off-campus - I didn’t live on campus in my first year of uni, and I
+        offered by SSH Student Housing. I'd chosen Tuindorp-West Complex as it is
+        off-campus - my first year halls were off-campus, and I
         quite liked not always being in the uni bubble. It is a bit of a commute
         to campus on public transport, but once I have a bike, it will be a
         15-20 minute cycle to campus and a 10 minute cycle to the city centre.
@@ -64,7 +65,7 @@ const PostContent = (props) => {
 
       <p>
         <PostImageSingle
-          caption="The sunsets from my room are stunning"
+          caption="Appreciating the sunsets from my room"
           image="https://lauren-anders-blog.s3.eu-west-2.amazonaws.com/ea65a12f-c8af-45b4-9ba3-63210436f397_2"
         />
       </p>
@@ -92,7 +93,7 @@ const PostContent = (props) => {
       <p>
         My lectures start tomorrow, 11am - 5pm, so a pretty long day. I have
         every Tuesday and Thursday off, and I’m only in lectures for two hours
-        on Mondays and Fridays, with only two modules at a time. It'll be a nice
+        on Mondays and Fridays, taking only two modules at a time. It'll be a nice
         change from three or six hours of lectures five days a week at Imperial!
         There seems to be a lot of emphasis on self-study here, which will be
         something to get used to.

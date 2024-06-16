@@ -18,7 +18,7 @@ const PostContent = (props) => {
         about a month (I’m sure my empty sash is somewhere in the attic), but
         I do remember reading the badge book cover to cover. For some reason,
         bell ringing is what first comes to mind when I think about that book,
-        not that I was ever going to pursue that! Now, I love setting
+        not that I was ever going to pursue that. As an adult, I love setting
         myself personal challenges and trying new things. Having had a look
         through the Rebel Badges and the clauses to complete for them, I found
         that some of them were things that I already wanted to do one day.
@@ -34,7 +34,7 @@ const PostContent = (props) => {
         blog.
       </p>
       <p>
-        Rebel Badges has a
+        Rebel Badge Club has a
         supportive and growing <a href="https://www.facebook.com/groups/579616703393446/" target="_blank">online community</a>.
         I've seen a few members categorise the badges, so I have decided to
         do the same, according to the likelihood of me completing the badge. I

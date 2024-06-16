@@ -5,29 +5,33 @@ const PostContent = (props) => {
   return (
     <>
       <p>
-        Now that inductions are over, yesterday I had my first lectures at
-        Universiteit Utrecht. We only do two modules at a time here, which is a
-        nice change from Imperial where I’m used to six at a time! However, each
-        module here is worth more than double that of Imperial’s. I have
-        Geochemical Cycles and Land Degradation until November - not the most
-        exciting start to my year abroad as I’m not particularly interested in
-        either, but I had very little choice of modules.
+        <em>Transferred from my old Year Abroad blog.</em>
       </p>
       <p>
-        In order to become a fully-fledged resident in the Netherlands, today I
+        Now that inductions are over, yesterday I had my first lectures at
+        Universiteit Utrecht. We only do two modules at a time here, which is a
+        nice change from Imperial where I’m used to six at a time. However, each
+        module here is worth more than double that of Imperial’s. I
+        have <em>Geochemical Cycles</em> and <em>Land Degradation</em> until November
+        - not the most exciting start to my year abroad as I’m not particularly
+        interested in either of them, but I had very little choice in modules.
+      </p>
+      <p>
+        In order to become a fully-fledged resident of the Netherlands, today I
         had to go activate my Dutch bank account. I looked up the way to the
         bank and expected a ten minute walk... it took me over an hour after
         getting horrendously lost. I also expected a ten minute wait as the bank
-        was closed to the rest of the public. How wrong I was... I was there for
-        two hours in total and I’d even cut the queue as I’d bumped into a
-        flatmate who was already queuing!
+        was closed to the rest of the public. How wrong I was... the queue of
+        exchange students was loooong. I was there for two hours in total
+        and I’d even cut the queue as I’d bumped into a flatmate who was already
+        queuing!
       </p>
       <p>
         The bank staff must have pitied us exchange students as they came
         around offering rocket ice lollies. That kind of hospitality would never
         happen in the UK. The wait was worth it as I now have a Dutch bank
-        account, which is timely as I am quickly running out of cash and hardly
-        anywhere accepts Visa.
+        account and a Maestro debit card, which is timely as I am quickly running
+        out of cash and hardly anywhere accepts Visa.
       </p>
       <p>
         I’ve also finally found a bike (or <em>fiets</em>). I went for a very
